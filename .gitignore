@@ -1,3 +1,5 @@
 dev/
 smarty/templates_c/
-settings.php
+inc/settings.php
+inc/Parsedown.php
+fonts/

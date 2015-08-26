@@ -16,11 +16,15 @@
 	<meta property="og:site_name" content="{$t['og:site_name']['text']}"/>
 	<meta property="og:type" content="website"/>
 
-    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/spacelab/bootstrap.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+{*    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/spacelab/bootstrap.min.css" rel="stylesheet">*}
+{*    <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">*}
+    <link href="{$app_url}libs/bootstrap.min.css" rel="stylesheet">
+    <link href="{$app_url}libs/font-awesome.min.css" rel="stylesheet">
     <link href="{$app_url}project.css" rel="stylesheet">
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="{$app_url}libs/jquery-1.11.3.min.js"></script>
+    <script src="{$app_url}libs/bootstrap.min.js"></script>
+{*    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>*}
+{*    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>*}
 {*    <script src="../jquery.stickytableheaders.min.js"></script>*}
     <title>{$t['title']['text']}</title>
     
