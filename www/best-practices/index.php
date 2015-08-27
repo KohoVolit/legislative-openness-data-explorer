@@ -8,7 +8,7 @@ $page = 'best-practices';
 require("../../inc/common.php");
 
 //read categories
-$handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . $page . DIRECTORY_SEPARATOR . 'categories.csv', "r"); 
+$handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'meta' . DIRECTORY_SEPARATOR . 'categories.csv', "r"); 
 $categories = csv2array($handle);
 
 //read and sort list of examples

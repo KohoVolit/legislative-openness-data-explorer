@@ -1,0 +1,136 @@
+# read source.csv and produce json
+
+import csv
+import json
+
+c2id = {}   #column 2 id
+questions = {}
+data = []
+options = {}
+exceptions = [6,7,10,13,16,18,20,24,27,30,33,36,39,41,48,51,105,187, 219,235,416,435,444,748,764]  #also contain options, not texts
+with open("source.csv") as fin:
+    csvr = csv.reader(fin)
+    i = 0
+    k = -1
+    for row in csvr:
+        if i == 0:
+            j = 1
+            for item in row:
+                itemli = item.split(':')
+                if len(itemli)>2:
+                    question = ':'.join(itemli[1:])
+                else:
+                    question = itemli[len(itemli)-1]
+                try:
+                    questions[question]
+                except:
+                    k += 1
+                    questions[question] = k                
+                c2id[j] = k
+                
+                if len(itemli) > 1:
+                    try:
+                        options[k]
+                    except:
+                        options[k] = {}
+                    options[k][itemli[0]] = itemli[0]
+                
+                j += 1
+        else:
+            j = 1
+            it = {'id':i, 'data': {}}
+            for item in row:
+                
+                try:
+                    it['data'][c2id[j]]
+                except:
+                    it['data'][c2id[j]] = {'options':[],'texts':[]}
+                if item.strip() != '':
+                    if j in exceptions:
+                        it['data'][c2id[j]]['options'].append(item.strip())
+                        try:
+                            options[c2id[j]]
+                        except:
+                            options[c2id[j]] = {}
+                        options[c2id[j]][item] = item
+                    else:
+                        try:
+                            it['data'][c2id[j]]['options'].append(options[c2id[j]][item.strip()])
+                        except:
+                            it['data'][c2id[j]]['texts'].append(item.strip())
+#                   
+                j += 1
+            data.append(it)
+            
+        i += 1
+        
+# qs[1] = 'sample question?'
+# question['sample question?'] = 1
+qs = {}
+for key in questions:
+    qs[questions[key]] = key
+
+with open("questions.csv","w") as fout:
+    csvw = csv.writer(fout)
+    for k in sorted(qs):
+        csvw.writerow([k,qs[k]])
+
+with open("options.csv","w") as fout:
+    csvw = csv.writer(fout)
+    for k in sorted(options):
+        for key in options[k]:
+            csvw.writerow([k,key,qs[k]])
+
+###
+### create os.csv manually (from options.csv)
+###
+
+###
+### create qs.csv manually (from questions.csv)
+###
+
+# q['20'] = {'weight': 1000000, 'category': 'accessibility', 'id': '20', 'question': 'In general, is parliamentary information openly licensed to allow for free reuse and redistribution?'}
+q = {}
+with open("qs.csv") as fin:
+    csvr = csv.DictReader(fin)
+    for row in csvr:
+        if row['weight'] == '':
+            row['weight'] = 10000000
+        else:
+            row['weight'] = float(row['weight'])
+        q[int(row['id'])] = row
+
+o2value = {}
+with open("os.csv") as fin:
+    csvr = csv.DictReader(fin)
+    for row in csvr:
+        try:
+            o2value[int(row['question_id'])]
+        except:
+            o2value[int(row['question_id'])] = {}
+        if row['value'] != '':
+            o2value[int(row['question_id'])][row['option']] = int(row['value'])
+
+k = 0
+for row in data:
+    for key in row['data']:
+        value = ''
+        for o in row['data'][key]['options']:
+            try:
+                if value == '':
+                    value = o2value[key][o]
+                    raise(Exception)
+                else:
+                    if value > o2value[key][o]:
+                        value = o2value[key][o]
+            except:
+                nothing = 0
+        row['data'][key]['value'] = value
+
+with open("data.json","w") as fout:
+    json.dump(data,fout)            
+        
+with open("questions.json","w") as fout:
+    json.dump(q,fout)  
+
+    

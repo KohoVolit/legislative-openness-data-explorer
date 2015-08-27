@@ -1,0 +1,849 @@
+5,Female,How do you identify?
+5,Male,How do you identify?
+6,Civil society,Which of the below listed sectors do you represent?
+6,Parliament,Which of the below listed sectors do you represent?
+6,Government,Which of the below listed sectors do you represent?
+6,Other,Which of the below listed sectors do you represent?
+6,Academia,Which of the below listed sectors do you represent?
+8,Unicameral,Is the above listed parliament unicameral or bicameral?
+8,Other,Is the above listed parliament unicameral or bicameral?
+8,Bicameral,Is the above listed parliament unicameral or bicameral?
+10,Yes,"If the country in question is a member of the Open Government Partnership, has the national action plan included commitments that relate to the legislative process?"
+10,Other,"If the country in question is a member of the Open Government Partnership, has the national action plan included commitments that relate to the legislative process?"
+10,No,"If the country in question is a member of the Open Government Partnership, has the national action plan included commitments that relate to the legislative process?"
+12,Yes,"If the country in question is a member of the Open Government Partnership, has civil society advocated for the inclusion of parliamentary openness commitments during the consultation process?"
+12,Other,"If the country in question is a member of the Open Government Partnership, has civil society advocated for the inclusion of parliamentary openness commitments during the consultation process?"
+12,No,"If the country in question is a member of the Open Government Partnership, has civil society advocated for the inclusion of parliamentary openness commitments during the consultation process?"
+13,Yes,"If the country in question is a member of the Open Government Partnership, does the parliament play a role in overseeing the implementation of the OGP national action plan?"
+13,Other,"If the country in question is a member of the Open Government Partnership, does the parliament play a role in overseeing the implementation of the OGP national action plan?"
+13,No,"If the country in question is a member of the Open Government Partnership, does the parliament play a role in overseeing the implementation of the OGP national action plan?"
+14,Yes,"Either independently or as part of OGP, has the parliament taken any significant steps towards creating their own plan on parliamentary openness?"
+14,Other,"Either independently or as part of OGP, has the parliament taken any significant steps towards creating their own plan on parliamentary openness?"
+14,No,"Either independently or as part of OGP, has the parliament taken any significant steps towards creating their own plan on parliamentary openness?"
+17,Yes,"Aside from the general rules of procedure for the chamber, are there specific policies or guidelines designed to ensure that parliamentary data and information is open and accessible?"
+17,Other,"Aside from the general rules of procedure for the chamber, are there specific policies or guidelines designed to ensure that parliamentary data and information is open and accessible?"
+17,No,"Aside from the general rules of procedure for the chamber, are there specific policies or guidelines designed to ensure that parliamentary data and information is open and accessible?"
+19,Yes,"Are there rules of procedure or policies that require that parliamentary information be published in open formats? If online, please provide a link."
+19,Other,"Are there rules of procedure or policies that require that parliamentary information be published in open formats? If online, please provide a link."
+19,No,"Are there rules of procedure or policies that require that parliamentary information be published in open formats? If online, please provide a link."
+20,Yes,"In general, is parliamentary information openly licensed to allow for free reuse and redistribution?"
+20,Other,"In general, is parliamentary information openly licensed to allow for free reuse and redistribution?"
+20,No,"In general, is parliamentary information openly licensed to allow for free reuse and redistribution?"
+22,Yes,Does the parliament officially require payment in exchange for access to certain parliamentary information?
+22,Other,Does the parliament officially require payment in exchange for access to certain parliamentary information?
+22,No,Does the parliament officially require payment in exchange for access to certain parliamentary information?
+24,Yes,"Does the parliament have a public website? If yes, please provide a link."
+24,Other,"Does the parliament have a public website? If yes, please provide a link."
+25,Less than monthly,How frequently does the parliament update its website?
+25,Close to real-time,How frequently does the parliament update its website?
+25,Monthly,How frequently does the parliament update its website?
+25,Daily,How frequently does the parliament update its website?
+25,Weekly,How frequently does the parliament update its website?
+25,Other,How frequently does the parliament update its website?
+25,Multiple times daily ,How frequently does the parliament update its website?
+26,Yes,"In general, does the parliamentary website use stable URLs?"
+26,Other,"In general, does the parliamentary website use stable URLs?"
+26,No,"In general, does the parliamentary website use stable URLs?"
+27,Simple search,How can an individual search for information on the parliament's website?
+27,Complex search,How can an individual search for information on the parliament's website?
+27,Other,How can an individual search for information on the parliament's website?
+27,No search options available,How can an individual search for information on the parliament's website?
+28,Yes,"To provide context to legislative information, does the parliament link information to other relevant datasets or information?"
+28,Other,"To provide context to legislative information, does the parliament link information to other relevant datasets or information?"
+28,No,"To provide context to legislative information, does the parliament link information to other relevant datasets or information?"
+30,Yes,"Does the parliament maintain offices outside the capital where citizens can access accurate, up-to-date parliamentary information?"
+30,Other,"Does the parliament maintain offices outside the capital where citizens can access accurate, up-to-date parliamentary information?"
+30,No,"Does the parliament maintain offices outside the capital where citizens can access accurate, up-to-date parliamentary information?"
+32,Other,"In instances where there are multiple working or national languages, does the parliament provide simultaneous interpretation of parliamentary proceedings? Please check all that apply."
+32,"Yes, those observing via radio, television, internet, or other service are provided with interpretation","In instances where there are multiple working or national languages, does the parliament provide simultaneous interpretation of parliamentary proceedings? Please check all that apply."
+32,"Yes, in person observers at the parliament are provided with interpretation","In instances where there are multiple working or national languages, does the parliament provide simultaneous interpretation of parliamentary proceedings? Please check all that apply."
+32,No,"In instances where there are multiple working or national languages, does the parliament provide simultaneous interpretation of parliamentary proceedings? Please check all that apply."
+33,Other,"In instances where there are multiple working or national languages, does the parliament generally make documents available in all working languages?"
+33,"Yes, with minimal delays to allow for translation (typically less than 24 hours)","In instances where there are multiple working or national languages, does the parliament generally make documents available in all working languages?"
+33,"Yes, eventually","In instances where there are multiple working or national languages, does the parliament generally make documents available in all working languages?"
+33,"Yes, with all languages made available in near real time","In instances where there are multiple working or national languages, does the parliament generally make documents available in all working languages?"
+33,"No, records are made available only in the original language","In instances where there are multiple working or national languages, does the parliament generally make documents available in all working languages?"
+34,Plenary voting records,What types of parliamentary information does the parliament make available in all official languages?
+34,Election results,What types of parliamentary information does the parliament make available in all official languages?
+34,Committee transcripts ,What types of parliamentary information does the parliament make available in all official languages?
+34,Order of business,What types of parliamentary information does the parliament make available in all official languages?
+34,Committee agendas,What types of parliamentary information does the parliament make available in all official languages?
+34,Plenary transcripts,What types of parliamentary information does the parliament make available in all official languages?
+34,Session calendars,What types of parliamentary information does the parliament make available in all official languages?
+34,Draft bills,What types of parliamentary information does the parliament make available in all official languages?
+34,Other,What types of parliamentary information does the parliament make available in all official languages?
+34,Committee voting records,What types of parliamentary information does the parliament make available in all official languages?
+34,Committee membership,What types of parliamentary information does the parliament make available in all official languages?
+34,Legislation,What types of parliamentary information does the parliament make available in all official languages?
+34,None of the above,What types of parliamentary information does the parliament make available in all official languages?
+35,Parliamentary roles and functions,Does the parliament regularly provide plain language summaries of any of the below types of information to help explain complex texts to citizens?
+35,Summaries of enacted legislation,Does the parliament regularly provide plain language summaries of any of the below types of information to help explain complex texts to citizens?
+35,Parliamentary rules of procedure,Does the parliament regularly provide plain language summaries of any of the below types of information to help explain complex texts to citizens?
+35,None of the above,Does the parliament regularly provide plain language summaries of any of the below types of information to help explain complex texts to citizens?
+35,Summaries of tabled bills,Does the parliament regularly provide plain language summaries of any of the below types of information to help explain complex texts to citizens?
+35,Other,Does the parliament regularly provide plain language summaries of any of the below types of information to help explain complex texts to citizens?
+35,Committee information,Does the parliament regularly provide plain language summaries of any of the below types of information to help explain complex texts to citizens?
+35,Contextual information or reports,Does the parliament regularly provide plain language summaries of any of the below types of information to help explain complex texts to citizens?
+37,Yes,"Does the parliamentary website have a publicly available privacy policy that allows website users to know what personal information is being collected and how that information is being used? If yes, please provide a link."
+37,Other,"Does the parliamentary website have a publicly available privacy policy that allows website users to know what personal information is being collected and how that information is being used? If yes, please provide a link."
+37,No,"Does the parliamentary website have a publicly available privacy policy that allows website users to know what personal information is being collected and how that information is being used? If yes, please provide a link."
+38,"Yes, using SMS or mobile technology","Does parliament offer publicly available alert services to proactively inform citizens about parliamentary activities? If yes, what technologies are used?"
+38,Other,"Does parliament offer publicly available alert services to proactively inform citizens about parliamentary activities? If yes, what technologies are used?"
+38,No,"Does parliament offer publicly available alert services to proactively inform citizens about parliamentary activities? If yes, what technologies are used?"
+38,"Yes, using email","Does parliament offer publicly available alert services to proactively inform citizens about parliamentary activities? If yes, what technologies are used?"
+38,"Yes, using RSS","Does parliament offer publicly available alert services to proactively inform citizens about parliamentary activities? If yes, what technologies are used?"
+39,RSS,"Plenary activity :If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+39,Other,"Plenary activity :If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+39,SMS or mobile technology,"Plenary activity :If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+39,Email,"Plenary activity :If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+39,Not available,"Plenary activity :If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+40,RSS,"Committee activity:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+40,Other,"Committee activity:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+40,SMS or mobile technology,"Committee activity:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+40,Email,"Committee activity:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+40,Not available,"Committee activity:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+41,RSS,"Introduction of bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+41,Other,"Introduction of bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+41,SMS or mobile technology,"Introduction of bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+41,Email,"Introduction of bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+41,Not available,"Introduction of bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+42,RSS,"Changes to bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+42,Other,"Changes to bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+42,SMS or mobile technology,"Changes to bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+42,Email,"Changes to bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+42,Not available,"Changes to bills:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+43,RSS,"Passage of legislation:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+43,Other,"Passage of legislation:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+43,SMS or mobile technology,"Passage of legislation:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+43,Email,"Passage of legislation:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+43,Not available,"Passage of legislation:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+44,RSS,"Votes:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+44,Other,"Votes:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+44,SMS or mobile technology,"Votes:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+44,Email,"Votes:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+44,Not available,"Votes:If alert services are available, what types of parliamentary activities are covered by alert services and what technologies do these services use?"
+46,Other,Is general information on the parliament's constitutional roles and functions available to the public?
+46,"Yes, online",Is general information on the parliament's constitutional roles and functions available to the public?
+46,"Yes, offline",Is general information on the parliament's constitutional roles and functions available to the public?
+46,No,Is general information on the parliament's constitutional roles and functions available to the public?
+47,Other,Is a complete version of the parliament's internal rules available to the public?
+47,"Yes, online",Is a complete version of the parliament's internal rules available to the public?
+47,"Yes, offline",Is a complete version of the parliament's internal rules available to the public?
+47,No,Is a complete version of the parliament's internal rules available to the public?
+48,Other,"Is a general, plain-language description of the parliament's structure or organization available to the public?"
+48,"Yes, online","Is a general, plain-language description of the parliament's structure or organization available to the public?"
+48,"Yes, offline","Is a general, plain-language description of the parliament's structure or organization available to the public?"
+48,No,"Is a general, plain-language description of the parliament's structure or organization available to the public?"
+49,Other,"Is a general, plain-language description of the parliament's legislative process available to the public?"
+49,"Yes, online","Is a general, plain-language description of the parliament's legislative process available to the public?"
+49,"Yes, offline","Is a general, plain-language description of the parliament's legislative process available to the public?"
+49,No,"Is a general, plain-language description of the parliament's legislative process available to the public?"
+50,Other,Is the parliament's session calendar available to the public?
+50,"Yes, online",Is the parliament's session calendar available to the public?
+50,"Yes, offline",Is the parliament's session calendar available to the public?
+50,No,Is the parliament's session calendar available to the public?
+51,Other,"Is the parliament's order of business, including its vote schedule, available to the public?"
+51,"Yes, online","Is the parliament's order of business, including its vote schedule, available to the public?"
+51,"Yes, offline","Is the parliament's order of business, including its vote schedule, available to the public?"
+51,No,"Is the parliament's order of business, including its vote schedule, available to the public?"
+52,1-3 days,"In general, how far in advance is the public notified of the order of business and vote schedule?"
+52,4-6 days,"In general, how far in advance is the public notified of the order of business and vote schedule?"
+52,1-2 weeks,"In general, how far in advance is the public notified of the order of business and vote schedule?"
+52,Order of business and vote schedule are not made public,"In general, how far in advance is the public notified of the order of business and vote schedule?"
+52,Other,"In general, how far in advance is the public notified of the order of business and vote schedule?"
+52,Less than 24 hours,"In general, how far in advance is the public notified of the order of business and vote schedule?"
+53,Live radio broadcast,How can a member of the public observe or listen to parliamentary plenary sessions?
+53,In-person at the parliament,How can a member of the public observe or listen to parliamentary plenary sessions?
+53,Live television,How can a member of the public observe or listen to parliamentary plenary sessions?
+53,On demand archival streaming,How can a member of the public observe or listen to parliamentary plenary sessions?
+53,Other,How can a member of the public observe or listen to parliamentary plenary sessions?
+53,Plenary sessions are not open to the public,How can a member of the public observe or listen to parliamentary plenary sessions?
+53,Web streaming,How can a member of the public observe or listen to parliamentary plenary sessions?
+54,Other,Are verbatim plenary transcripts available to the public?
+54,"Yes, online",Are verbatim plenary transcripts available to the public?
+54,"Yes, offline",Are verbatim plenary transcripts available to the public?
+54,No,Are verbatim plenary transcripts available to the public?
+55,Other,Are plenary roll call voting records available to the public?
+55,"Yes, online",Are plenary roll call voting records available to the public?
+55,"Yes, offline",Are plenary roll call voting records available to the public?
+55,No,Are plenary roll call voting records available to the public?
+56,"Non-recorded votes are common, even for controversial matters",How frequently does the parliament use means other than recorded roll call votes in plenary sessions?
+56,"Non-recorded votes are common for amendments, but rare for final passage",How frequently does the parliament use means other than recorded roll call votes in plenary sessions?
+56,Other,How frequently does the parliament use means other than recorded roll call votes in plenary sessions?
+56,Non-recorded votes are rare,How frequently does the parliament use means other than recorded roll call votes in plenary sessions?
+56,"Non-recorded votes are common for uncontroversial matters, but never used on controversial matters",How frequently does the parliament use means other than recorded roll call votes in plenary sessions?
+57,Yes,"If publicly available online, can one easily search or sort the plenary voting record so as to identify how a particular member has voted? If online, please provide a link."
+57,Other,"If publicly available online, can one easily search or sort the plenary voting record so as to identify how a particular member has voted? If online, please provide a link."
+57,No,"If publicly available online, can one easily search or sort the plenary voting record so as to identify how a particular member has voted? If online, please provide a link."
+58,Other,"Upon being introduced or tabled, is the text of draft legislation immediately available to the public?"
+58,"Yes, online","Upon being introduced or tabled, is the text of draft legislation immediately available to the public?"
+58,"Yes, offline","Upon being introduced or tabled, is the text of draft legislation immediately available to the public?"
+58,No,"Upon being introduced or tabled, is the text of draft legislation immediately available to the public?"
+59,"Yes, online ","If draft legislation is made publicly available, is the status of the bill in the legislative process easily accessible?"
+59,Other,"If draft legislation is made publicly available, is the status of the bill in the legislative process easily accessible?"
+59,"Yes, offline ","If draft legislation is made publicly available, is the status of the bill in the legislative process easily accessible?"
+59,No ,"If draft legislation is made publicly available, is the status of the bill in the legislative process easily accessible?"
+60,Yes,"Does the parliament maintain a web-based, searchable database of all enacted legislation? If yes, please provide a link."
+60,Other,"Does the parliament maintain a web-based, searchable database of all enacted legislation? If yes, please provide a link."
+60,No,"Does the parliament maintain a web-based, searchable database of all enacted legislation? If yes, please provide a link."
+61,Other,"With the exception of reports containing classified or confidential information, are all reports requested by or submitted to the parliament typically made available to the public?"
+61,"Yes, online","With the exception of reports containing classified or confidential information, are all reports requested by or submitted to the parliament typically made available to the public?"
+61,"Yes, offline","With the exception of reports containing classified or confidential information, are all reports requested by or submitted to the parliament typically made available to the public?"
+61,No,"With the exception of reports containing classified or confidential information, are all reports requested by or submitted to the parliament typically made available to the public?"
+62,Less than 24 hours,"Plenary transcripts (after plenary session) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+62,4 - 6 days,"Plenary transcripts (after plenary session) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+62,1 - 2 weeks,"Plenary transcripts (after plenary session) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+62,More than 2 weeks,"Plenary transcripts (after plenary session) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+62,1 - 3 days,"Plenary transcripts (after plenary session) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+62,Not available,"Plenary transcripts (after plenary session) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+63,Less than 24 hours,"Roll call voting record (after voting concludes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+63,4 - 6 days,"Roll call voting record (after voting concludes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+63,1 - 2 weeks,"Roll call voting record (after voting concludes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+63,More than 2 weeks,"Roll call voting record (after voting concludes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+63,1 - 3 days,"Roll call voting record (after voting concludes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+63,Not available,"Roll call voting record (after voting concludes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+64,Less than 24 hours,"Draft legislation (after legislation is introduced) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+64,4 - 6 days,"Draft legislation (after legislation is introduced) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+64,1 - 2 weeks,"Draft legislation (after legislation is introduced) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+64,More than 2 weeks,"Draft legislation (after legislation is introduced) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+64,1 - 3 days,"Draft legislation (after legislation is introduced) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+64,Not available,"Draft legislation (after legislation is introduced) :On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+65,Less than 24 hours,"Updates on the status of legislation (after status changes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+65,4 - 6 days,"Updates on the status of legislation (after status changes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+65,1 - 2 weeks,"Updates on the status of legislation (after status changes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+65,More than 2 weeks,"Updates on the status of legislation (after status changes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+65,1 - 3 days,"Updates on the status of legislation (after status changes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+65,Not available,"Updates on the status of legislation (after status changes):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+66,Less than 24 hours,"Reports requested by or submitted to parliament (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+66,4 - 6 days,"Reports requested by or submitted to parliament (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+66,1 - 2 weeks,"Reports requested by or submitted to parliament (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+66,More than 2 weeks,"Reports requested by or submitted to parliament (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+66,1 - 3 days,"Reports requested by or submitted to parliament (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+66,Not available,"Reports requested by or submitted to parliament (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the below listed information?"
+67,Official bulletin or publication ,Session calendar :Through which of the following means can information about plenary activities be accessed?
+67,Bulk download,Session calendar :Through which of the following means can information about plenary activities be accessed?
+67,Not available,Session calendar :Through which of the following means can information about plenary activities be accessed?
+67,API,Session calendar :Through which of the following means can information about plenary activities be accessed?
+67,Other,Session calendar :Through which of the following means can information about plenary activities be accessed?
+67,Parliamentary website ,Session calendar :Through which of the following means can information about plenary activities be accessed?
+67,Mobile device,Session calendar :Through which of the following means can information about plenary activities be accessed?
+68,Official bulletin or publication ,Order of business:Through which of the following means can information about plenary activities be accessed?
+68,Bulk download,Order of business:Through which of the following means can information about plenary activities be accessed?
+68,Not available,Order of business:Through which of the following means can information about plenary activities be accessed?
+68,API,Order of business:Through which of the following means can information about plenary activities be accessed?
+68,Other,Order of business:Through which of the following means can information about plenary activities be accessed?
+68,Parliamentary website ,Order of business:Through which of the following means can information about plenary activities be accessed?
+68,Mobile device,Order of business:Through which of the following means can information about plenary activities be accessed?
+69,Official bulletin or publication ,Plenary transcripts:Through which of the following means can information about plenary activities be accessed?
+69,Bulk download,Plenary transcripts:Through which of the following means can information about plenary activities be accessed?
+69,Not available,Plenary transcripts:Through which of the following means can information about plenary activities be accessed?
+69,API,Plenary transcripts:Through which of the following means can information about plenary activities be accessed?
+69,Other,Plenary transcripts:Through which of the following means can information about plenary activities be accessed?
+69,Parliamentary website ,Plenary transcripts:Through which of the following means can information about plenary activities be accessed?
+69,Mobile device,Plenary transcripts:Through which of the following means can information about plenary activities be accessed?
+70,Official bulletin or publication ,Roll call voting record:Through which of the following means can information about plenary activities be accessed?
+70,Bulk download,Roll call voting record:Through which of the following means can information about plenary activities be accessed?
+70,Not available,Roll call voting record:Through which of the following means can information about plenary activities be accessed?
+70,API,Roll call voting record:Through which of the following means can information about plenary activities be accessed?
+70,Other,Roll call voting record:Through which of the following means can information about plenary activities be accessed?
+70,Parliamentary website ,Roll call voting record:Through which of the following means can information about plenary activities be accessed?
+70,Mobile device,Roll call voting record:Through which of the following means can information about plenary activities be accessed?
+71,Official bulletin or publication ,Draft legislation:Through which of the following means can information about plenary activities be accessed?
+71,Bulk download,Draft legislation:Through which of the following means can information about plenary activities be accessed?
+71,Not available,Draft legislation:Through which of the following means can information about plenary activities be accessed?
+71,API,Draft legislation:Through which of the following means can information about plenary activities be accessed?
+71,Other,Draft legislation:Through which of the following means can information about plenary activities be accessed?
+71,Parliamentary website ,Draft legislation:Through which of the following means can information about plenary activities be accessed?
+71,Mobile device,Draft legislation:Through which of the following means can information about plenary activities be accessed?
+72,Official bulletin or publication ,Reports request by or submitted to parliament:Through which of the following means can information about plenary activities be accessed?
+72,Bulk download,Reports request by or submitted to parliament:Through which of the following means can information about plenary activities be accessed?
+72,Not available,Reports request by or submitted to parliament:Through which of the following means can information about plenary activities be accessed?
+72,API,Reports request by or submitted to parliament:Through which of the following means can information about plenary activities be accessed?
+72,Other,Reports request by or submitted to parliament:Through which of the following means can information about plenary activities be accessed?
+72,Parliamentary website ,Reports request by or submitted to parliament:Through which of the following means can information about plenary activities be accessed?
+72,Mobile device,Reports request by or submitted to parliament:Through which of the following means can information about plenary activities be accessed?
+73,PDF,Session calendar :In which of the following formats can information about plenary activities be accessed?
+73,Word document (.doc),Session calendar :In which of the following formats can information about plenary activities be accessed?
+73,Not available,Session calendar :In which of the following formats can information about plenary activities be accessed?
+73,Excel or CSV,Session calendar :In which of the following formats can information about plenary activities be accessed?
+73,XML,Session calendar :In which of the following formats can information about plenary activities be accessed?
+73,Printed copy,Session calendar :In which of the following formats can information about plenary activities be accessed?
+73,Other,Session calendar :In which of the following formats can information about plenary activities be accessed?
+73,HTML,Session calendar :In which of the following formats can information about plenary activities be accessed?
+74,PDF,Order of business:In which of the following formats can information about plenary activities be accessed?
+74,Word document (.doc),Order of business:In which of the following formats can information about plenary activities be accessed?
+74,Not available,Order of business:In which of the following formats can information about plenary activities be accessed?
+74,Excel or CSV,Order of business:In which of the following formats can information about plenary activities be accessed?
+74,XML,Order of business:In which of the following formats can information about plenary activities be accessed?
+74,Printed copy,Order of business:In which of the following formats can information about plenary activities be accessed?
+74,Other,Order of business:In which of the following formats can information about plenary activities be accessed?
+74,HTML,Order of business:In which of the following formats can information about plenary activities be accessed?
+75,PDF,Plenary transcripts:In which of the following formats can information about plenary activities be accessed?
+75,Word document (.doc),Plenary transcripts:In which of the following formats can information about plenary activities be accessed?
+75,Not available,Plenary transcripts:In which of the following formats can information about plenary activities be accessed?
+75,Excel or CSV,Plenary transcripts:In which of the following formats can information about plenary activities be accessed?
+75,XML,Plenary transcripts:In which of the following formats can information about plenary activities be accessed?
+75,Printed copy,Plenary transcripts:In which of the following formats can information about plenary activities be accessed?
+75,Other,Plenary transcripts:In which of the following formats can information about plenary activities be accessed?
+75,HTML,Plenary transcripts:In which of the following formats can information about plenary activities be accessed?
+76,PDF,Roll call voting record:In which of the following formats can information about plenary activities be accessed?
+76,Word document (.doc),Roll call voting record:In which of the following formats can information about plenary activities be accessed?
+76,Not available,Roll call voting record:In which of the following formats can information about plenary activities be accessed?
+76,Excel or CSV,Roll call voting record:In which of the following formats can information about plenary activities be accessed?
+76,XML,Roll call voting record:In which of the following formats can information about plenary activities be accessed?
+76,Printed copy,Roll call voting record:In which of the following formats can information about plenary activities be accessed?
+76,Other,Roll call voting record:In which of the following formats can information about plenary activities be accessed?
+76,HTML,Roll call voting record:In which of the following formats can information about plenary activities be accessed?
+77,PDF,Draft legislation:In which of the following formats can information about plenary activities be accessed?
+77,Word document (.doc),Draft legislation:In which of the following formats can information about plenary activities be accessed?
+77,Not available,Draft legislation:In which of the following formats can information about plenary activities be accessed?
+77,Excel or CSV,Draft legislation:In which of the following formats can information about plenary activities be accessed?
+77,XML,Draft legislation:In which of the following formats can information about plenary activities be accessed?
+77,Printed copy,Draft legislation:In which of the following formats can information about plenary activities be accessed?
+77,Other,Draft legislation:In which of the following formats can information about plenary activities be accessed?
+77,HTML,Draft legislation:In which of the following formats can information about plenary activities be accessed?
+78,PDF,Reports request by or submitted to parliament:In which of the following formats can information about plenary activities be accessed?
+78,Word document (.doc),Reports request by or submitted to parliament:In which of the following formats can information about plenary activities be accessed?
+78,Not available,Reports request by or submitted to parliament:In which of the following formats can information about plenary activities be accessed?
+78,Excel or CSV,Reports request by or submitted to parliament:In which of the following formats can information about plenary activities be accessed?
+78,XML,Reports request by or submitted to parliament:In which of the following formats can information about plenary activities be accessed?
+78,Printed copy,Reports request by or submitted to parliament:In which of the following formats can information about plenary activities be accessed?
+78,Other,Reports request by or submitted to parliament:In which of the following formats can information about plenary activities be accessed?
+78,HTML,Reports request by or submitted to parliament:In which of the following formats can information about plenary activities be accessed?
+79,4 - 6 years,"Session calendar :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+79,10 or more years,"Session calendar :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+79,Not available,"Session calendar :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+79,1 - 3 years,"Session calendar :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+79,Less than 1 year,"Session calendar :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+79,7 - 9 years,"Session calendar :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+80,4 - 6 years,"Order of business:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+80,10 or more years,"Order of business:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+80,Not available,"Order of business:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+80,1 - 3 years,"Order of business:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+80,Less than 1 year,"Order of business:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+80,7 - 9 years,"Order of business:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+81,4 - 6 years,"Plenary transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+81,10 or more years,"Plenary transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+81,Not available,"Plenary transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+81,1 - 3 years,"Plenary transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+81,Less than 1 year,"Plenary transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+81,7 - 9 years,"Plenary transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+82,4 - 6 years,"Roll call voting record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+82,10 or more years,"Roll call voting record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+82,Not available,"Roll call voting record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+82,1 - 3 years,"Roll call voting record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+82,Less than 1 year,"Roll call voting record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+82,7 - 9 years,"Roll call voting record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+83,4 - 6 years,"Draft legislation:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+83,10 or more years,"Draft legislation:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+83,Not available,"Draft legislation:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+83,1 - 3 years,"Draft legislation:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+83,Less than 1 year,"Draft legislation:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+83,7 - 9 years,"Draft legislation:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+84,4 - 6 years,"Reports request by or submitted to parliament:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+84,10 or more years,"Reports request by or submitted to parliament:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+84,Not available,"Reports request by or submitted to parliament:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+84,1 - 3 years,"Reports request by or submitted to parliament:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+84,Less than 1 year,"Reports request by or submitted to parliament:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+84,7 - 9 years,"Reports request by or submitted to parliament:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+86,Other,Is a general description of committee powers and functions available to the public?
+86,"Yes, online",Is a general description of committee powers and functions available to the public?
+86,"Yes, offline",Is a general description of committee powers and functions available to the public?
+86,No,Is a general description of committee powers and functions available to the public?
+87,Other,"If committees have their own internal rules, is information on committee rules available to the public?"
+87,"Yes, online","If committees have their own internal rules, is information on committee rules available to the public?"
+87,"Yes, offline","If committees have their own internal rules, is information on committee rules available to the public?"
+87,No,"If committees have their own internal rules, is information on committee rules available to the public?"
+88,Yes,"In instances where committees meet in private, is the public typically informed why the meeting was held in private?"
+88,Other,"In instances where committees meet in private, is the public typically informed why the meeting was held in private?"
+88,No,"In instances where committees meet in private, is the public typically informed why the meeting was held in private?"
+89,On demand archival streaming,What means does the parliament provide for a member of the public to observe or listen to public committee meetings?
+89,In-person at the parliament,What means does the parliament provide for a member of the public to observe or listen to public committee meetings?
+89,Live television,What means does the parliament provide for a member of the public to observe or listen to public committee meetings?
+89,Committee meetings are not generally open to the public,What means does the parliament provide for a member of the public to observe or listen to public committee meetings?
+89,Other,What means does the parliament provide for a member of the public to observe or listen to public committee meetings?
+89,Live radio,What means does the parliament provide for a member of the public to observe or listen to public committee meetings?
+89,Web streaming,What means does the parliament provide for a member of the public to observe or listen to public committee meetings?
+90,Other,Is the committee schedule available to the public?
+90,"Yes, online",Is the committee schedule available to the public?
+90,"Yes, offline",Is the committee schedule available to the public?
+90,No,Is the committee schedule available to the public?
+91,1-3 days,"If available, how far in advance is the public notified of committee schedule?"
+91,More than 2 weeks,"If available, how far in advance is the public notified of committee schedule?"
+91,4-6 days,"If available, how far in advance is the public notified of committee schedule?"
+91,1-2 weeks,"If available, how far in advance is the public notified of committee schedule?"
+91,Other,"If available, how far in advance is the public notified of committee schedule?"
+91,Less than 24 hours,"If available, how far in advance is the public notified of committee schedule?"
+92,Other,Are committee meeting agendas available to the public?
+92,"Yes, online",Are committee meeting agendas available to the public?
+92,"Yes, offline",Are committee meeting agendas available to the public?
+92,No,Are committee meeting agendas available to the public?
+93,1-3 days,"If available, how far in advance is the public provided with committee meeting agendas?"
+93,More than 2 weeks,"If available, how far in advance is the public provided with committee meeting agendas?"
+93,4-6 days,"If available, how far in advance is the public provided with committee meeting agendas?"
+93,1-2 weeks,"If available, how far in advance is the public provided with committee meeting agendas?"
+93,Other,"If available, how far in advance is the public provided with committee meeting agendas?"
+93,Less than 24 hours,"If available, how far in advance is the public provided with committee meeting agendas?"
+94,Other,Are verbatim committee transcripts available to the public?
+94,"Yes, online",Are verbatim committee transcripts available to the public?
+94,"Yes, offline",Are verbatim committee transcripts available to the public?
+94,No,Are verbatim committee transcripts available to the public?
+95,Other,Is witness testimony at committee hearings available to the public?
+95,"Yes, online",Is witness testimony at committee hearings available to the public?
+95,"Yes, offline",Is witness testimony at committee hearings available to the public?
+95,No,Is witness testimony at committee hearings available to the public?
+96,Other,Are committee voting records available to the public?
+96,"Yes, online",Are committee voting records available to the public?
+96,"Yes, offline",Are committee voting records available to the public?
+96,No,Are committee voting records available to the public?
+97,Other,"With the exception of classified information, is evidence submitted to committees generally available to the public?"
+97,"Yes, online","With the exception of classified information, is evidence submitted to committees generally available to the public?"
+97,"Yes, offline","With the exception of classified information, is evidence submitted to committees generally available to the public?"
+97,No,"With the exception of classified information, is evidence submitted to committees generally available to the public?"
+98,Other,Are committee reports available to the public?
+98,"Yes, online",Are committee reports available to the public?
+98,"Yes, offline",Are committee reports available to the public?
+98,No,Are committee reports available to the public?
+99,Other,Are complete versions of committee resolutions available to the public?
+99,"Yes, online",Are complete versions of committee resolutions available to the public?
+99,"Yes, offline",Are complete versions of committee resolutions available to the public?
+99,No,Are complete versions of committee resolutions available to the public?
+100,Less than 24 hours,"Committee schedule (after schedule is set) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+100,4 - 6 days,"Committee schedule (after schedule is set) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+100,1 - 2 weeks,"Committee schedule (after schedule is set) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+100,More than 2 weeks,"Committee schedule (after schedule is set) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+100,1 - 3 days,"Committee schedule (after schedule is set) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+100,Not available,"Committee schedule (after schedule is set) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+101,Less than 24 hours,"Committee transcripts (after transcripts are recorded) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+101,4 - 6 days,"Committee transcripts (after transcripts are recorded) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+101,1 - 2 weeks,"Committee transcripts (after transcripts are recorded) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+101,More than 2 weeks,"Committee transcripts (after transcripts are recorded) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+101,1 - 3 days,"Committee transcripts (after transcripts are recorded) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+101,Not available,"Committee transcripts (after transcripts are recorded) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+102,Less than 24 hours,"Witness testimony (after testimony is submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+102,4 - 6 days,"Witness testimony (after testimony is submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+102,1 - 2 weeks,"Witness testimony (after testimony is submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+102,More than 2 weeks,"Witness testimony (after testimony is submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+102,1 - 3 days,"Witness testimony (after testimony is submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+102,Not available,"Witness testimony (after testimony is submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+103,Less than 24 hours,"Committee voting record (after votes are recorded):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+103,4 - 6 days,"Committee voting record (after votes are recorded):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+103,1 - 2 weeks,"Committee voting record (after votes are recorded):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+103,More than 2 weeks,"Committee voting record (after votes are recorded):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+103,1 - 3 days,"Committee voting record (after votes are recorded):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+103,Not available,"Committee voting record (after votes are recorded):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+104,Less than 24 hours,"Evidence submitted to committee (after evidence is submitted) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+104,4 - 6 days,"Evidence submitted to committee (after evidence is submitted) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+104,1 - 2 weeks,"Evidence submitted to committee (after evidence is submitted) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+104,More than 2 weeks,"Evidence submitted to committee (after evidence is submitted) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+104,1 - 3 days,"Evidence submitted to committee (after evidence is submitted) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+104,Not available,"Evidence submitted to committee (after evidence is submitted) :On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+105,Less than 24 hours,"Committee reports (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+105,4 - 6 days,"Committee reports (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+105,1 - 2 weeks,"Committee reports (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+105,More than 2 weeks,"Committee reports (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+105,1 - 3 days,"Committee reports (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+105,Not available,"Committee reports (after reports are submitted):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+106,Less than 24 hours,"Committee resolutions (after resolution is introduced):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+106,4 - 6 days,"Committee resolutions (after resolution is introduced):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+106,1 - 2 weeks,"Committee resolutions (after resolution is introduced):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+106,More than 2 weeks,"Committee resolutions (after resolution is introduced):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+106,1 - 3 days,"Committee resolutions (after resolution is introduced):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+106,Not available,"Committee resolutions (after resolution is introduced):On average, how soon after a given action has taken place is the public notified and provided with the information listed below?"
+107,Bulk download,Committee functions and rules:Through which of the following means can information on parliamentary committees be accessed by the public?
+107,Official bulletin or publication,Committee functions and rules:Through which of the following means can information on parliamentary committees be accessed by the public?
+107,API,Committee functions and rules:Through which of the following means can information on parliamentary committees be accessed by the public?
+107,Not available,Committee functions and rules:Through which of the following means can information on parliamentary committees be accessed by the public?
+107,Other,Committee functions and rules:Through which of the following means can information on parliamentary committees be accessed by the public?
+107,Parliamentary website,Committee functions and rules:Through which of the following means can information on parliamentary committees be accessed by the public?
+107,Mobile device,Committee functions and rules:Through which of the following means can information on parliamentary committees be accessed by the public?
+108,Bulk download,Committee schedule:Through which of the following means can information on parliamentary committees be accessed by the public?
+108,Official bulletin or publication,Committee schedule:Through which of the following means can information on parliamentary committees be accessed by the public?
+108,API,Committee schedule:Through which of the following means can information on parliamentary committees be accessed by the public?
+108,Not available,Committee schedule:Through which of the following means can information on parliamentary committees be accessed by the public?
+108,Other,Committee schedule:Through which of the following means can information on parliamentary committees be accessed by the public?
+108,Parliamentary website,Committee schedule:Through which of the following means can information on parliamentary committees be accessed by the public?
+108,Mobile device,Committee schedule:Through which of the following means can information on parliamentary committees be accessed by the public?
+109,Bulk download,Committee transcripts:Through which of the following means can information on parliamentary committees be accessed by the public?
+109,Official bulletin or publication,Committee transcripts:Through which of the following means can information on parliamentary committees be accessed by the public?
+109,API,Committee transcripts:Through which of the following means can information on parliamentary committees be accessed by the public?
+109,Not available,Committee transcripts:Through which of the following means can information on parliamentary committees be accessed by the public?
+109,Other,Committee transcripts:Through which of the following means can information on parliamentary committees be accessed by the public?
+109,Parliamentary website,Committee transcripts:Through which of the following means can information on parliamentary committees be accessed by the public?
+109,Mobile device,Committee transcripts:Through which of the following means can information on parliamentary committees be accessed by the public?
+110,Bulk download,Witness testimony:Through which of the following means can information on parliamentary committees be accessed by the public?
+110,Official bulletin or publication,Witness testimony:Through which of the following means can information on parliamentary committees be accessed by the public?
+110,API,Witness testimony:Through which of the following means can information on parliamentary committees be accessed by the public?
+110,Not available,Witness testimony:Through which of the following means can information on parliamentary committees be accessed by the public?
+110,Other,Witness testimony:Through which of the following means can information on parliamentary committees be accessed by the public?
+110,Parliamentary website,Witness testimony:Through which of the following means can information on parliamentary committees be accessed by the public?
+110,Mobile device,Witness testimony:Through which of the following means can information on parliamentary committees be accessed by the public?
+111,Bulk download,Committee voting records:Through which of the following means can information on parliamentary committees be accessed by the public?
+111,Official bulletin or publication,Committee voting records:Through which of the following means can information on parliamentary committees be accessed by the public?
+111,API,Committee voting records:Through which of the following means can information on parliamentary committees be accessed by the public?
+111,Not available,Committee voting records:Through which of the following means can information on parliamentary committees be accessed by the public?
+111,Other,Committee voting records:Through which of the following means can information on parliamentary committees be accessed by the public?
+111,Parliamentary website,Committee voting records:Through which of the following means can information on parliamentary committees be accessed by the public?
+111,Mobile device,Committee voting records:Through which of the following means can information on parliamentary committees be accessed by the public?
+112,Bulk download,Evidence submitted to committee :Through which of the following means can information on parliamentary committees be accessed by the public?
+112,Official bulletin or publication,Evidence submitted to committee :Through which of the following means can information on parliamentary committees be accessed by the public?
+112,API,Evidence submitted to committee :Through which of the following means can information on parliamentary committees be accessed by the public?
+112,Not available,Evidence submitted to committee :Through which of the following means can information on parliamentary committees be accessed by the public?
+112,Other,Evidence submitted to committee :Through which of the following means can information on parliamentary committees be accessed by the public?
+112,Parliamentary website,Evidence submitted to committee :Through which of the following means can information on parliamentary committees be accessed by the public?
+112,Mobile device,Evidence submitted to committee :Through which of the following means can information on parliamentary committees be accessed by the public?
+113,Bulk download,Committee reports :Through which of the following means can information on parliamentary committees be accessed by the public?
+113,Official bulletin or publication,Committee reports :Through which of the following means can information on parliamentary committees be accessed by the public?
+113,API,Committee reports :Through which of the following means can information on parliamentary committees be accessed by the public?
+113,Not available,Committee reports :Through which of the following means can information on parliamentary committees be accessed by the public?
+113,Other,Committee reports :Through which of the following means can information on parliamentary committees be accessed by the public?
+113,Parliamentary website,Committee reports :Through which of the following means can information on parliamentary committees be accessed by the public?
+113,Mobile device,Committee reports :Through which of the following means can information on parliamentary committees be accessed by the public?
+114,Bulk download,Committee resolutions:Through which of the following means can information on parliamentary committees be accessed by the public?
+114,Official bulletin or publication,Committee resolutions:Through which of the following means can information on parliamentary committees be accessed by the public?
+114,API,Committee resolutions:Through which of the following means can information on parliamentary committees be accessed by the public?
+114,Not available,Committee resolutions:Through which of the following means can information on parliamentary committees be accessed by the public?
+114,Other,Committee resolutions:Through which of the following means can information on parliamentary committees be accessed by the public?
+114,Parliamentary website,Committee resolutions:Through which of the following means can information on parliamentary committees be accessed by the public?
+114,Mobile device,Committee resolutions:Through which of the following means can information on parliamentary committees be accessed by the public?
+115,PDF,Committee functions and rules:In which of the following formats can information on parliamentary committees be accessed by the public?
+115,Word document (.doc),Committee functions and rules:In which of the following formats can information on parliamentary committees be accessed by the public?
+115,Not available,Committee functions and rules:In which of the following formats can information on parliamentary committees be accessed by the public?
+115,Excel or CSV,Committee functions and rules:In which of the following formats can information on parliamentary committees be accessed by the public?
+115,XML,Committee functions and rules:In which of the following formats can information on parliamentary committees be accessed by the public?
+115,Printed copy,Committee functions and rules:In which of the following formats can information on parliamentary committees be accessed by the public?
+115,Other,Committee functions and rules:In which of the following formats can information on parliamentary committees be accessed by the public?
+115,HTML,Committee functions and rules:In which of the following formats can information on parliamentary committees be accessed by the public?
+116,PDF,Committee schedule:In which of the following formats can information on parliamentary committees be accessed by the public?
+116,Word document (.doc),Committee schedule:In which of the following formats can information on parliamentary committees be accessed by the public?
+116,Not available,Committee schedule:In which of the following formats can information on parliamentary committees be accessed by the public?
+116,Excel or CSV,Committee schedule:In which of the following formats can information on parliamentary committees be accessed by the public?
+116,XML,Committee schedule:In which of the following formats can information on parliamentary committees be accessed by the public?
+116,Printed copy,Committee schedule:In which of the following formats can information on parliamentary committees be accessed by the public?
+116,Other,Committee schedule:In which of the following formats can information on parliamentary committees be accessed by the public?
+116,HTML,Committee schedule:In which of the following formats can information on parliamentary committees be accessed by the public?
+117,PDF,Committee transcripts:In which of the following formats can information on parliamentary committees be accessed by the public?
+117,Word document (.doc),Committee transcripts:In which of the following formats can information on parliamentary committees be accessed by the public?
+117,Not available,Committee transcripts:In which of the following formats can information on parliamentary committees be accessed by the public?
+117,Excel or CSV,Committee transcripts:In which of the following formats can information on parliamentary committees be accessed by the public?
+117,XML,Committee transcripts:In which of the following formats can information on parliamentary committees be accessed by the public?
+117,Printed copy,Committee transcripts:In which of the following formats can information on parliamentary committees be accessed by the public?
+117,Other,Committee transcripts:In which of the following formats can information on parliamentary committees be accessed by the public?
+117,HTML,Committee transcripts:In which of the following formats can information on parliamentary committees be accessed by the public?
+118,PDF,Witness testimony:In which of the following formats can information on parliamentary committees be accessed by the public?
+118,Word document (.doc),Witness testimony:In which of the following formats can information on parliamentary committees be accessed by the public?
+118,Not available,Witness testimony:In which of the following formats can information on parliamentary committees be accessed by the public?
+118,Excel or CSV,Witness testimony:In which of the following formats can information on parliamentary committees be accessed by the public?
+118,XML,Witness testimony:In which of the following formats can information on parliamentary committees be accessed by the public?
+118,Printed copy,Witness testimony:In which of the following formats can information on parliamentary committees be accessed by the public?
+118,Other,Witness testimony:In which of the following formats can information on parliamentary committees be accessed by the public?
+118,HTML,Witness testimony:In which of the following formats can information on parliamentary committees be accessed by the public?
+119,PDF,Committee voting records:In which of the following formats can information on parliamentary committees be accessed by the public?
+119,Word document (.doc),Committee voting records:In which of the following formats can information on parliamentary committees be accessed by the public?
+119,Not available,Committee voting records:In which of the following formats can information on parliamentary committees be accessed by the public?
+119,Excel or CSV,Committee voting records:In which of the following formats can information on parliamentary committees be accessed by the public?
+119,XML,Committee voting records:In which of the following formats can information on parliamentary committees be accessed by the public?
+119,Printed copy,Committee voting records:In which of the following formats can information on parliamentary committees be accessed by the public?
+119,Other,Committee voting records:In which of the following formats can information on parliamentary committees be accessed by the public?
+119,HTML,Committee voting records:In which of the following formats can information on parliamentary committees be accessed by the public?
+120,PDF,Evidence submitted to committee :In which of the following formats can information on parliamentary committees be accessed by the public?
+120,Word document (.doc),Evidence submitted to committee :In which of the following formats can information on parliamentary committees be accessed by the public?
+120,Not available,Evidence submitted to committee :In which of the following formats can information on parliamentary committees be accessed by the public?
+120,Excel or CSV,Evidence submitted to committee :In which of the following formats can information on parliamentary committees be accessed by the public?
+120,XML,Evidence submitted to committee :In which of the following formats can information on parliamentary committees be accessed by the public?
+120,Printed copy,Evidence submitted to committee :In which of the following formats can information on parliamentary committees be accessed by the public?
+120,Other,Evidence submitted to committee :In which of the following formats can information on parliamentary committees be accessed by the public?
+120,HTML,Evidence submitted to committee :In which of the following formats can information on parliamentary committees be accessed by the public?
+121,PDF,Committee reports:In which of the following formats can information on parliamentary committees be accessed by the public?
+121,Word document (.doc),Committee reports:In which of the following formats can information on parliamentary committees be accessed by the public?
+121,Not available,Committee reports:In which of the following formats can information on parliamentary committees be accessed by the public?
+121,Excel or CSV,Committee reports:In which of the following formats can information on parliamentary committees be accessed by the public?
+121,XML,Committee reports:In which of the following formats can information on parliamentary committees be accessed by the public?
+121,Printed copy,Committee reports:In which of the following formats can information on parliamentary committees be accessed by the public?
+121,Other,Committee reports:In which of the following formats can information on parliamentary committees be accessed by the public?
+121,HTML,Committee reports:In which of the following formats can information on parliamentary committees be accessed by the public?
+122,PDF,Committee resolutions:In which of the following formats can information on parliamentary committees be accessed by the public?
+122,Word document (.doc),Committee resolutions:In which of the following formats can information on parliamentary committees be accessed by the public?
+122,Not available,Committee resolutions:In which of the following formats can information on parliamentary committees be accessed by the public?
+122,Excel or CSV,Committee resolutions:In which of the following formats can information on parliamentary committees be accessed by the public?
+122,XML,Committee resolutions:In which of the following formats can information on parliamentary committees be accessed by the public?
+122,Printed copy,Committee resolutions:In which of the following formats can information on parliamentary committees be accessed by the public?
+122,Other,Committee resolutions:In which of the following formats can information on parliamentary committees be accessed by the public?
+122,HTML,Committee resolutions:In which of the following formats can information on parliamentary committees be accessed by the public?
+123,4 - 6 years,"Committee functions and rules:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+123,10 or more years,"Committee functions and rules:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+123,Not available,"Committee functions and rules:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+123,1 - 3 years,"Committee functions and rules:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+123,Less than 1 year,"Committee functions and rules:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+123,7 - 9 years,"Committee functions and rules:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+124,4 - 6 years,"Committee schedule:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+124,10 or more years,"Committee schedule:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+124,Not available,"Committee schedule:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+124,1 - 3 years,"Committee schedule:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+124,Less than 1 year,"Committee schedule:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+124,7 - 9 years,"Committee schedule:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+125,4 - 6 years,"Committee transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+125,10 or more years,"Committee transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+125,Not available,"Committee transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+125,1 - 3 years,"Committee transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+125,Less than 1 year,"Committee transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+125,7 - 9 years,"Committee transcripts:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+126,4 - 6 years,"Witness testimony:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+126,10 or more years,"Witness testimony:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+126,Not available,"Witness testimony:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+126,1 - 3 years,"Witness testimony:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+126,Less than 1 year,"Witness testimony:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+126,7 - 9 years,"Witness testimony:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+127,4 - 6 years,"Committee voting records:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+127,10 or more years,"Committee voting records:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+127,Not available,"Committee voting records:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+127,1 - 3 years,"Committee voting records:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+127,Less than 1 year,"Committee voting records:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+127,7 - 9 years,"Committee voting records:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+128,4 - 6 years,"Evidence submitted to committee:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+128,10 or more years,"Evidence submitted to committee:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+128,Not available,"Evidence submitted to committee:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+128,1 - 3 years,"Evidence submitted to committee:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+128,Less than 1 year,"Evidence submitted to committee:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+128,7 - 9 years,"Evidence submitted to committee:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+129,4 - 6 years,"Committee reports :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+129,10 or more years,"Committee reports :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+129,Not available,"Committee reports :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+129,1 - 3 years,"Committee reports :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+129,Less than 1 year,"Committee reports :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+129,7 - 9 years,"Committee reports :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+130,4 - 6 years,"Committee resolutions:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+130,10 or more years,"Committee resolutions:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+130,Not available,"Committee resolutions:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+130,1 - 3 years,"Committee resolutions:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+130,Less than 1 year,"Committee resolutions:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+130,7 - 9 years,"Committee resolutions:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below generally available?"
+132,Other,Is information on members' roles and committee memberships available to the public?
+132,"Yes, online",Is information on members' roles and committee memberships available to the public?
+132,"Yes, offline",Is information on members' roles and committee memberships available to the public?
+132,No,Is information on members' roles and committee memberships available to the public?
+133,Other,"In countries with either single- or multi-member districts, is basic social and economic information on all districts available to the public?"
+133,"Yes, online","In countries with either single- or multi-member districts, is basic social and economic information on all districts available to the public?"
+133,"Yes, offline","In countries with either single- or multi-member districts, is basic social and economic information on all districts available to the public?"
+133,No,"In countries with either single- or multi-member districts, is basic social and economic information on all districts available to the public?"
+134,Other,Is information on any party affiliation of members of parliament available to the public?
+134,"Yes, online",Is information on any party affiliation of members of parliament available to the public?
+134,"Yes, offline",Is information on any party affiliation of members of parliament available to the public?
+134,No,Is information on any party affiliation of members of parliament available to the public?
+135,Other,"Is contact information for members of parliament, including for any district and capital offices they maintain, available to the public?"
+135,"Yes, online","Is contact information for members of parliament, including for any district and capital offices they maintain, available to the public?"
+135,"Yes, offline","Is contact information for members of parliament, including for any district and capital offices they maintain, available to the public?"
+135,No,"Is contact information for members of parliament, including for any district and capital offices they maintain, available to the public?"
+136,Other,Is an individual member of parliament's attendance record for plenary sessions available to the public?
+136,"Yes, online",Is an individual member of parliament's attendance record for plenary sessions available to the public?
+136,"Yes, offline",Is an individual member of parliament's attendance record for plenary sessions available to the public?
+136,No,Is an individual member of parliament's attendance record for plenary sessions available to the public?
+137,Other,Is an individual member of parliament's attendance record for committee meetings available to the public?
+137,"Yes, online",Is an individual member of parliament's attendance record for committee meetings available to the public?
+137,"Yes, offline",Is an individual member of parliament's attendance record for committee meetings available to the public?
+137,No,Is an individual member of parliament's attendance record for committee meetings available to the public?
+138,Other,Is information on an individual member of parliament's expenses available to the public?
+138,"Yes, online",Is information on an individual member of parliament's expenses available to the public?
+138,"Yes, offline",Is information on an individual member of parliament's expenses available to the public?
+138,No,Is information on an individual member of parliament's expenses available to the public?
+139,Yes,Is there a constituency development fund that provides members of parliament with a role in allocating funds for development projects in their district?
+139,Other,Is there a constituency development fund that provides members of parliament with a role in allocating funds for development projects in their district?
+139,No,Is there a constituency development fund that provides members of parliament with a role in allocating funds for development projects in their district?
+140,Other,"Is information on the use of constituency development funds, including the total amount allocated for the fund and how the money has been spent for each constituency, available to the public?"
+140,"Yes, online","Is information on the use of constituency development funds, including the total amount allocated for the fund and how the money has been spent for each constituency, available to the public?"
+140,"Yes, offline","Is information on the use of constituency development funds, including the total amount allocated for the fund and how the money has been spent for each constituency, available to the public?"
+140,No,"Is information on the use of constituency development funds, including the total amount allocated for the fund and how the money has been spent for each constituency, available to the public?"
+141,Other,Is there a publicly available registry that lists active lobbyists or pressure groups and that provides basic information on their activities?
+141,"Yes, online",Is there a publicly available registry that lists active lobbyists or pressure groups and that provides basic information on their activities?
+141,"Yes, offline",Is there a publicly available registry that lists active lobbyists or pressure groups and that provides basic information on their activities?
+141,No,Is there a publicly available registry that lists active lobbyists or pressure groups and that provides basic information on their activities?
+142,Yes,"Are members required to disclose information on their meetings with lobbyists, including the name of the lobbyists and the issues discussed?"
+142,Other,"Are members required to disclose information on their meetings with lobbyists, including the name of the lobbyists and the issues discussed?"
+142,No,"Are members required to disclose information on their meetings with lobbyists, including the name of the lobbyists and the issues discussed?"
+143,Other,"If members are required to disclose information on their meetings with lobbyists, is this information available to the public?"
+143,"Yes, online","If members are required to disclose information on their meetings with lobbyists, is this information available to the public?"
+143,"Yes, offline","If members are required to disclose information on their meetings with lobbyists, is this information available to the public?"
+143,No,"If members are required to disclose information on their meetings with lobbyists, is this information available to the public?"
+144,Other,Is information regarding a member of parliament's assets and interests available to the public?
+144,"Yes, online",Is information regarding a member of parliament's assets and interests available to the public?
+144,"Yes, offline",Is information regarding a member of parliament's assets and interests available to the public?
+144,No,Is information regarding a member of parliament's assets and interests available to the public?
+145,Other,Is information regarding a member of parliament’s involvement on corporate boards available to the public?
+145,"Yes, online",Is information regarding a member of parliament’s involvement on corporate boards available to the public?
+145,"Yes, offline",Is information regarding a member of parliament’s involvement on corporate boards available to the public?
+145,No,Is information regarding a member of parliament’s involvement on corporate boards available to the public?
+146,Other,"Once completed, are the results of internal parliamentary investigations into conflicts of interest or ethics violations available to the public?"
+146,"Yes, online","Once completed, are the results of internal parliamentary investigations into conflicts of interest or ethics violations available to the public?"
+146,"Yes, offline","Once completed, are the results of internal parliamentary investigations into conflicts of interest or ethics violations available to the public?"
+146,No,"Once completed, are the results of internal parliamentary investigations into conflicts of interest or ethics violations available to the public?"
+147,Bulk download,Plenary attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+147,Official bulletin or publication,Plenary attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+147,API,Plenary attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+147,Not available,Plenary attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+147,Other,Plenary attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+147,Parliamentary website,Plenary attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+147,Mobile device,Plenary attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+148,Bulk download,Committee attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+148,Official bulletin or publication,Committee attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+148,API,Committee attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+148,Not available,Committee attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+148,Other,Committee attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+148,Parliamentary website,Committee attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+148,Mobile device,Committee attendance record:Through which of the following means can information on members of parliament be accessed by the public?
+149,Bulk download,Expenses:Through which of the following means can information on members of parliament be accessed by the public?
+149,Official bulletin or publication,Expenses:Through which of the following means can information on members of parliament be accessed by the public?
+149,API,Expenses:Through which of the following means can information on members of parliament be accessed by the public?
+149,Not available,Expenses:Through which of the following means can information on members of parliament be accessed by the public?
+149,Other,Expenses:Through which of the following means can information on members of parliament be accessed by the public?
+149,Parliamentary website,Expenses:Through which of the following means can information on members of parliament be accessed by the public?
+149,Mobile device,Expenses:Through which of the following means can information on members of parliament be accessed by the public?
+150,Bulk download,Constituency development funds:Through which of the following means can information on members of parliament be accessed by the public?
+150,Official bulletin or publication,Constituency development funds:Through which of the following means can information on members of parliament be accessed by the public?
+150,API,Constituency development funds:Through which of the following means can information on members of parliament be accessed by the public?
+150,Not available,Constituency development funds:Through which of the following means can information on members of parliament be accessed by the public?
+150,Other,Constituency development funds:Through which of the following means can information on members of parliament be accessed by the public?
+150,Parliamentary website,Constituency development funds:Through which of the following means can information on members of parliament be accessed by the public?
+150,Mobile device,Constituency development funds:Through which of the following means can information on members of parliament be accessed by the public?
+151,Bulk download,Interactions with lobbyists and pressure groups:Through which of the following means can information on members of parliament be accessed by the public?
+151,Official bulletin or publication,Interactions with lobbyists and pressure groups:Through which of the following means can information on members of parliament be accessed by the public?
+151,API,Interactions with lobbyists and pressure groups:Through which of the following means can information on members of parliament be accessed by the public?
+151,Not available,Interactions with lobbyists and pressure groups:Through which of the following means can information on members of parliament be accessed by the public?
+151,Other,Interactions with lobbyists and pressure groups:Through which of the following means can information on members of parliament be accessed by the public?
+151,Parliamentary website,Interactions with lobbyists and pressure groups:Through which of the following means can information on members of parliament be accessed by the public?
+151,Mobile device,Interactions with lobbyists and pressure groups:Through which of the following means can information on members of parliament be accessed by the public?
+152,Bulk download,Assets and interests:Through which of the following means can information on members of parliament be accessed by the public?
+152,Official bulletin or publication,Assets and interests:Through which of the following means can information on members of parliament be accessed by the public?
+152,API,Assets and interests:Through which of the following means can information on members of parliament be accessed by the public?
+152,Not available,Assets and interests:Through which of the following means can information on members of parliament be accessed by the public?
+152,Other,Assets and interests:Through which of the following means can information on members of parliament be accessed by the public?
+152,Parliamentary website,Assets and interests:Through which of the following means can information on members of parliament be accessed by the public?
+152,Mobile device,Assets and interests:Through which of the following means can information on members of parliament be accessed by the public?
+153,Bulk download,Results of investigations :Through which of the following means can information on members of parliament be accessed by the public?
+153,Official bulletin or publication,Results of investigations :Through which of the following means can information on members of parliament be accessed by the public?
+153,API,Results of investigations :Through which of the following means can information on members of parliament be accessed by the public?
+153,Not available,Results of investigations :Through which of the following means can information on members of parliament be accessed by the public?
+153,Other,Results of investigations :Through which of the following means can information on members of parliament be accessed by the public?
+153,Parliamentary website,Results of investigations :Through which of the following means can information on members of parliament be accessed by the public?
+153,Mobile device,Results of investigations :Through which of the following means can information on members of parliament be accessed by the public?
+154,PDF,Plenary attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+154,Word document (.doc),Plenary attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+154,Not available,Plenary attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+154,Excel or CSV,Plenary attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+154,XML,Plenary attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+154,Printed copy,Plenary attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+154,Other,Plenary attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+154,HTML,Plenary attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+155,PDF,Committee attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+155,Word document (.doc),Committee attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+155,Not available,Committee attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+155,Excel or CSV,Committee attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+155,XML,Committee attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+155,Printed copy,Committee attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+155,Other,Committee attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+155,HTML,Committee attendance record:Through which of the following formats can information on members of parliament be accessed by the public?
+156,PDF,Expenses:Through which of the following formats can information on members of parliament be accessed by the public?
+156,Word document (.doc),Expenses:Through which of the following formats can information on members of parliament be accessed by the public?
+156,Not available,Expenses:Through which of the following formats can information on members of parliament be accessed by the public?
+156,Excel or CSV,Expenses:Through which of the following formats can information on members of parliament be accessed by the public?
+156,XML,Expenses:Through which of the following formats can information on members of parliament be accessed by the public?
+156,Printed copy,Expenses:Through which of the following formats can information on members of parliament be accessed by the public?
+156,Other,Expenses:Through which of the following formats can information on members of parliament be accessed by the public?
+156,HTML,Expenses:Through which of the following formats can information on members of parliament be accessed by the public?
+157,PDF,Constituency development funds:Through which of the following formats can information on members of parliament be accessed by the public?
+157,Word document (.doc),Constituency development funds:Through which of the following formats can information on members of parliament be accessed by the public?
+157,Not available,Constituency development funds:Through which of the following formats can information on members of parliament be accessed by the public?
+157,Excel or CSV,Constituency development funds:Through which of the following formats can information on members of parliament be accessed by the public?
+157,XML,Constituency development funds:Through which of the following formats can information on members of parliament be accessed by the public?
+157,Printed copy,Constituency development funds:Through which of the following formats can information on members of parliament be accessed by the public?
+157,Other,Constituency development funds:Through which of the following formats can information on members of parliament be accessed by the public?
+157,HTML,Constituency development funds:Through which of the following formats can information on members of parliament be accessed by the public?
+158,PDF,Interactions with lobbyists and pressure groups:Through which of the following formats can information on members of parliament be accessed by the public?
+158,Word document (.doc),Interactions with lobbyists and pressure groups:Through which of the following formats can information on members of parliament be accessed by the public?
+158,Not available,Interactions with lobbyists and pressure groups:Through which of the following formats can information on members of parliament be accessed by the public?
+158,Excel or CSV,Interactions with lobbyists and pressure groups:Through which of the following formats can information on members of parliament be accessed by the public?
+158,XML,Interactions with lobbyists and pressure groups:Through which of the following formats can information on members of parliament be accessed by the public?
+158,Printed copy,Interactions with lobbyists and pressure groups:Through which of the following formats can information on members of parliament be accessed by the public?
+158,Other,Interactions with lobbyists and pressure groups:Through which of the following formats can information on members of parliament be accessed by the public?
+158,HTML,Interactions with lobbyists and pressure groups:Through which of the following formats can information on members of parliament be accessed by the public?
+159,PDF,Assets and interests:Through which of the following formats can information on members of parliament be accessed by the public?
+159,Word document (.doc),Assets and interests:Through which of the following formats can information on members of parliament be accessed by the public?
+159,Not available,Assets and interests:Through which of the following formats can information on members of parliament be accessed by the public?
+159,Excel or CSV,Assets and interests:Through which of the following formats can information on members of parliament be accessed by the public?
+159,XML,Assets and interests:Through which of the following formats can information on members of parliament be accessed by the public?
+159,Printed copy,Assets and interests:Through which of the following formats can information on members of parliament be accessed by the public?
+159,Other,Assets and interests:Through which of the following formats can information on members of parliament be accessed by the public?
+159,HTML,Assets and interests:Through which of the following formats can information on members of parliament be accessed by the public?
+160,PDF,Results of investigations :Through which of the following formats can information on members of parliament be accessed by the public?
+160,Word document (.doc),Results of investigations :Through which of the following formats can information on members of parliament be accessed by the public?
+160,Not available,Results of investigations :Through which of the following formats can information on members of parliament be accessed by the public?
+160,Excel or CSV,Results of investigations :Through which of the following formats can information on members of parliament be accessed by the public?
+160,XML,Results of investigations :Through which of the following formats can information on members of parliament be accessed by the public?
+160,Printed copy,Results of investigations :Through which of the following formats can information on members of parliament be accessed by the public?
+160,Other,Results of investigations :Through which of the following formats can information on members of parliament be accessed by the public?
+160,HTML,Results of investigations :Through which of the following formats can information on members of parliament be accessed by the public?
+161,4 - 6 years,"Plenary attendance record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+161,10 or more years,"Plenary attendance record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+161,Not available,"Plenary attendance record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+161,1 - 3 years,"Plenary attendance record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+161,Less than 1 year,"Plenary attendance record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+161,7 - 9 years,"Plenary attendance record:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+162,4 - 6 years,"Committee attendance record :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+162,10 or more years,"Committee attendance record :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+162,Not available,"Committee attendance record :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+162,1 - 3 years,"Committee attendance record :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+162,Less than 1 year,"Committee attendance record :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+162,7 - 9 years,"Committee attendance record :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+163,4 - 6 years,"Expenses :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+163,10 or more years,"Expenses :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+163,Not available,"Expenses :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+163,1 - 3 years,"Expenses :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+163,Less than 1 year,"Expenses :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+163,7 - 9 years,"Expenses :If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+164,4 - 6 years,"Constituency development funds:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+164,10 or more years,"Constituency development funds:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+164,Not available,"Constituency development funds:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+164,1 - 3 years,"Constituency development funds:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+164,Less than 1 year,"Constituency development funds:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+164,7 - 9 years,"Constituency development funds:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+165,4 - 6 years,"Interactions with lobbyists and pressure groups:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+165,10 or more years,"Interactions with lobbyists and pressure groups:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+165,Not available,"Interactions with lobbyists and pressure groups:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+165,1 - 3 years,"Interactions with lobbyists and pressure groups:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+165,Less than 1 year,"Interactions with lobbyists and pressure groups:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+165,7 - 9 years,"Interactions with lobbyists and pressure groups:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+166,4 - 6 years,"Assets and interests:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+166,10 or more years,"Assets and interests:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+166,Not available,"Assets and interests:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+166,1 - 3 years,"Assets and interests:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+166,Less than 1 year,"Assets and interests:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+166,7 - 9 years,"Assets and interests:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+167,4 - 6 years,"Results of investigations:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+167,10 or more years,"Results of investigations:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+167,Not available,"Results of investigations:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+167,1 - 3 years,"Results of investigations:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+167,Less than 1 year,"Results of investigations:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+167,7 - 9 years,"Results of investigations:If historical parliamentary information is publicly accessible, for how many past years are the types of information listed below available?"
+169,Other,Is the parliament's budget available to the public?
+169,"Yes, online",Is the parliament's budget available to the public?
+169,"Yes, offline",Is the parliament's budget available to the public?
+169,No,Is the parliament's budget available to the public?
+170,Other,Is information about parliamentary expenditures available to the public?
+170,"Yes, online",Is information about parliamentary expenditures available to the public?
+170,"Yes, offline",Is information about parliamentary expenditures available to the public?
+170,No,Is information about parliamentary expenditures available to the public?
+171,Other,Is information about parliamentary contracts available to the public?
+171,"Yes, online",Is information about parliamentary contracts available to the public?
+171,"Yes, offline",Is information about parliamentary contracts available to the public?
+171,No,Is information about parliamentary contracts available to the public?
+172,Other,Is information about bids to provide services to the parliament available to the public?
+172,"Yes, online",Is information about bids to provide services to the parliament available to the public?
+172,"Yes, offline",Is information about bids to provide services to the parliament available to the public?
+172,No,Is information about bids to provide services to the parliament available to the public?
+173,Other,Is information on the roles and structure of parliament's administrative offices available to the public?
+173,"Yes, online",Is information on the roles and structure of parliament's administrative offices available to the public?
+173,"Yes, offline",Is information on the roles and structure of parliament's administrative offices available to the public?
+173,No,Is information on the roles and structure of parliament's administrative offices available to the public?
+174,Other,Is contact information for senior administrative staff available to the public?
+174,"Yes, online",Is contact information for senior administrative staff available to the public?
+174,"Yes, offline",Is contact information for senior administrative staff available to the public?
+174,No,Is contact information for senior administrative staff available to the public?
