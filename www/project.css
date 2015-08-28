@@ -59,3 +59,17 @@
 .footer-links li:first-child {
     padding-left: 0px;
 }
+
+/* explore */
+.traffic-color-1 {
+    color: #4DFA90
+}
+.traffic-color-2 {
+    color: #FABE4D
+}
+.traffic-color-3 {
+    color: #FF5468
+}
+.traffic-color-0 {
+    color: #525252
+}

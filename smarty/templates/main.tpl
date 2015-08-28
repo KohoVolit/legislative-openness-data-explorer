@@ -22,7 +22,7 @@
     <link href="{$app_url}libs/font-awesome.min.css" rel="stylesheet">
     <link href="{$app_url}project.css" rel="stylesheet">
     <script src="{$app_url}libs/jquery-1.11.3.min.js"></script>
-{*    <script src="{$app_url}libs/bootstrap.min.js"></script>*}
+    <script src="{$app_url}libs/bootstrap.min.js"></script>
 {*    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>*}
 {*    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>*}
 {*    <script src="../jquery.stickytableheaders.min.js"></script>*}

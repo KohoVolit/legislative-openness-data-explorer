@@ -1,0 +1,59 @@
+{
+"countries.json": {
+    "ro": {
+        "code": "ro",
+        "name": "Romania",
+        "region": "Europe",
+        "sub-region": "Eastern Europe",
+        "latitude": 46,
+        "longitude": 25,
+        "population": 21848504
+    }
+},
+
+"categories.json": {
+    "plenary": {
+        "icon": "institution",
+        "weight": 1,
+        "code": "plenary",
+        "name": "Plenary"
+    }
+},
+
+"parliaments.json": {
+    "1": {
+        "name": "Chamber of Deputies",
+        "country_name": "Romania",
+        "country_code": "ro",
+        "region": "Europe",
+        "id": "1"
+    }
+},
+
+"questions.json": {
+    "17": {
+        "weight": "",
+        "category_code": "ethics",
+        "id": "0",
+        "question": "Should I stay or should I go?",
+        "category_icon": "heart",
+        "category_weight": 1,
+        "category_name": "Ethics"
+    }
+},
+
+"data.json": {
+    "1": {
+        "17": {
+            "value": "",
+            "texts": ["Well..."],
+            "options": ["Yes"],
+            "question_id": "17",
+            "parliament_id": "1"
+        }
+    }
+}
+
+
+
+}
