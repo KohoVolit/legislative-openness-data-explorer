@@ -5,10 +5,10 @@
 
 $page = 'download';
 
-require("../../inc/common.php");
+require("../common.php");
 
 //read download.md
-include('../../inc/Parsedown.php');
+include('../Parsedown.php');
 $mdurl = TEXT_URL . lang($page) . "/download/download.md";
 $contents = file_get_contents($mdurl);
 $Parsedown = new Parsedown();

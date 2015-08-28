@@ -5,7 +5,7 @@
 
 $page = 'best-practices';
 
-require("../../inc/common.php");
+require("../common.php");
 
 $best_practices = best_practices($page);
 

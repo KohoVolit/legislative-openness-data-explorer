@@ -5,7 +5,7 @@
 #$start = microtime(true);
 $page = 'explore';
 
-require("../../inc/common.php");
+require("../common.php");
 
 //read data
 $questions = json_decode(file_get_contents(APP_PATH . "inc/questions.json"));

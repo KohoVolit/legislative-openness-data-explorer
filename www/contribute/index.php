@@ -5,7 +5,7 @@
 
 $page = 'contribute';
 
-require("../../inc/common.php");
+require("../common.php");
 
 $smarty->display($page . '.tpl');
 
