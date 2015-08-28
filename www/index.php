@@ -5,7 +5,7 @@
 
 $page = 'front-page';
 
-require("../inc/common.php");
+require("common.php");
 
 //get countries
 $parliaments = json_decode(file_get_contents(APP_PATH . "inc/parliaments.json"));
@@ -15,7 +15,7 @@ $categories = json_decode(file_get_contents(APP_PATH . "inc/categories.json"));
 $categories_sorted = sort_categories($categories);
 
 //read jumbo.md
-include('../inc/Parsedown.php');
+include('Parsedown.php');
 $mdurl = TEXT_URL . lang($page) . "/front-page/jumbo.md";
 $contents = file_get_contents($mdurl);
 $Parsedown = new Parsedown();
