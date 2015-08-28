@@ -31,6 +31,25 @@
                 $("explore-form").submit();
             });
         });
+        //shows and hides forms
+        $(function() {
+            $("#show-suggest-edits").click(function(){
+                $(".suggest-edits-hidden").show(1000);
+                $(".suggest-edits-hide").hide(1000);
+            });
+            $("#hide-suggest-edits").click(function(){
+                $(".suggest-edits-hidden").hide(1000);
+                $(".suggest-edits-hide").show(1000);
+            });
+
+        })
+{*        //shows and hides *}
+{*        $(function() {*}
+{*            $(".read-more").click(function(){*}
+{*                $("#"+this.id+"-rest").show(100);*}
+{*                $("#"+this.id).hide();*}
+{*            });*}
+{*        })*}
     </script>
 
     <h1>{$t['title']['text']}</h1>
@@ -70,5 +89,13 @@
     </form>
         {include "explore_table.tpl"}
     <!-- table -->
+    
+    <!-- suggest edit -->
+        {include "explore_suggest.tpl"}
+    <!-- /suggest edit -->
+    <hr>
+    <!-- best practices -->
+        {include "explore_best-practices.tpl"}
+    <!-- /best practices
 
 {/block}

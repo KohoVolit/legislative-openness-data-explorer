@@ -4,7 +4,7 @@
         <tr class="bg-primary">
                 <th>
             {foreach $questions_selected as $q}
-                <th><i class="fa fa-{$q->category_icon}" title="{$q->category_name}"></i> <small>{$q->question}</small>
+                <th style="vertical-align:top"><i class="fa fa-{$q->category_icon}" title="{$q->category_name}"></i> <small>{$q->question}</small>
             {/foreach}
     <tbody>
     {foreach $parliaments_selected as $p}
@@ -21,7 +21,7 @@
         <tr class="bg-primary">
                 <th>
             {foreach $parliaments_selected as $p}
-                <th>{$p->country}: <small>{$p->name}</small>
+                <th style="vertical-align:top">{$p->country}: <small>{$p->name}</small>
             {/foreach}
     <tbody>
     {foreach $questions_selected as $q}

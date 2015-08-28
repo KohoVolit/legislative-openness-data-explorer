@@ -73,3 +73,15 @@
 .traffic-color-0 {
     color: #525252
 }
+
+/* front page */
+#worldmap{
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+#worldmap-container {
+    width: 100%;
+    height: 450px;
+    border: 1px solid #CCC;
+}

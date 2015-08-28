@@ -56,16 +56,12 @@ if (!(isset($_GET['rot']) and (in_array($_GET['rot'],[1,2])))) {
 } else
     $force_rot = true;
 //select data
-$data_selected = [];
-foreach($parliaments_selected as $p) {
-    $row = [];
-    $p_id = $p->id;
-    foreach($questions_selected as $q) {
-        $q_id = $q->id;
-        $row[$q->id] = $data->$p_id->$q_id;
-    }
-    $data_selected[$p->id] = $row;
-}
+$data_selected = select_data($data,$parliaments_selected,$questions_selected);
+
+
+//get best practices
+$best_practices = best_practices('best-practices');
+
 
 
 
@@ -88,11 +84,30 @@ $smarty->assign('categories',$categories);
 $smarty->assign('data_selected',$data_selected);
 $smarty->assign('parliaments_selected',$parliaments_selected);
 $smarty->assign('questions_selected',$questions_selected);
-//$smarty->assign('questions',$questions);
-//$smarty->assign('questions_order',$questions_order);
+
+$smarty->assign('bp_categories',$best_practices['categories']);
+$smarty->assign('bp_examples',$best_practices['examples']);
+#$smarty->assign('bp_filter',$best_practices['filter']);
 
 
 $smarty->display($page . '.tpl');
+
+//select data for table
+function select_data($data,$parliaments_selected,$questions_selected) {
+    $data_selected = [];
+    foreach($parliaments_selected as $p) {
+        $row = [];
+        $p_id = $p->id;
+        foreach($questions_selected as $q) {
+            $q_id = $q->id;
+            $row[$q->id] = $data->$p_id->$q_id;
+        }
+        $data_selected[$p->id] = $row;
+    }
+    return $data_selected;
+}
+
+
 
 // prepares parliaments for dialog
 function parliaments4dialog($parliaments) {
