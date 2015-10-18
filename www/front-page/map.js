@@ -42,7 +42,7 @@ function handleLayer(layer){
 
     var code = layer.feature.properties.code;
     if (typeof(countries[code]) != 'undefined') {
-        var fillColor = "#4DFA90";
+        var fillColor = "#FFD800";
     } else {
         var fillColor = "#525252";
     }

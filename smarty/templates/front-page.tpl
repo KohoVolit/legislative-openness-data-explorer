@@ -7,9 +7,11 @@
         countries = {$countries} ;
     </script>
 
-    <h1>{$t['title']['text']}</h1>
+{*    <h1>{$t['title']['text']}</h1>*}
     <div class="jumbotron">
-        <p><i class="fa fa-certificate fa-2x text-success"></i> {$jumbo_text}
+        <p>
+{*        <i class="fa fa-certificate fa-2x text-success"></i>*}
+         {$jumbo_text}
     </div>
     <!-- map and categories -->
     <div class="row">
@@ -23,11 +25,11 @@
             <div class="list-group" id="next-map-container">
                 {foreach $categories as $category}
                     <a href="explore?c={$category->code}" class="list-group-item">
-                        <h4><i class="fa fa-{$category->icon}"></i> {$category->name}</h4>
+                        <h4><div class="row"><div class="col-xs-2"><i class="fa fa-{$category->icon}" style="font-size:1.1em"></i></div><div class="col-xs-10"> {$category->name}</div></h4>
                     </a>
                 {/foreach}
             </div>
-            <p><i class="fa fa-info-circle"></i> {$t['under_categories']['text']}
+{*            <p><i class="fa fa-info-circle"></i> {$t['under_categories']['text']}*}
         </div>
     </div>
     <!-- /map and categories -->
@@ -38,21 +40,21 @@
         <!-- explore -->
         <div class="col-md-4">
             <a href="explore" class="btn btn-info btn-lg btn-block active" role="button" style="white-space: normal;">
-                <h3><strong><i class="fa fa-rocket"></i> {$t['explore']['text']}</strong></h3>
+                <h3><strong>{mb_convert_case({$t['explore']['text']}, 0, "UTF-8")}</strong></h3>
                 <small>{$t['explore_description']['text']}</small>
             </a>
         </div>
         <!-- download -->
         <div class="col-md-4">
             <a href="download" class="btn btn-info btn-lg btn-block active" role="button" style="white-space: normal;">
-                <h3><strong><i class="fa fa-cloud-download"></i> {$t['download']['text']}</strong></h3>
+                <h3><strong>{mb_convert_case({$t['download']['text']}, 0, "UTF-8")}</strong></h3>
                 <small>{$t['download_description']['text']}</small>
             </a>
         </div>
         <!-- contribute -->
         <div class="col-md-4">
             <a href="contribute" class="btn btn-info btn-lg btn-block active" role="button" style="white-space: normal;">
-                <h3><strong><i class="fa fa-comment-o"></i> {$t['contribute']['text']}</strong></h3>
+                <h3><strong>{mb_convert_case({$t['contribute']['text']}, 0, "UTF-8")}</strong></h3>
                 <small>{$t['contribute_description']['text']}</small>
             </a>
         </div>

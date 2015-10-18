@@ -50,9 +50,13 @@
 {*                $("#"+this.id).hide();*}
 {*            });*}
 {*        })*}
+        //init tooltips
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
     </script>
 
-    <h1>{$t['title']['text']}</h1>
+{*    <h1>{$t['title']['text']}</h1>*}
 
     <!-- buttons -->    
     <div class="row">
@@ -76,7 +80,7 @@
     <!-- /choose chambers -->  
     
     <!-- table -->
-        <h3>{$t['data']['text']}</h3>
+{*        <h3>{$t['data']['text']}</h3>*}
         <button class="btn btn-default btn-sm" id="submit-rotate">
             <i class="fa fa-rotate-right"></i> {$t['rotate']['text']}
         </button>

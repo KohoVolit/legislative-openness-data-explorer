@@ -14,7 +14,11 @@
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav">
         {foreach $header as $row}
-            <li><a href="{$app_url}{$row['link']}">{$row['text']}</a></li>
+            <li
+            {if $page == $row['link']}
+                class="active" style="font-size:1.2em"
+                {/if}
+            ><a href="{$app_url}{$row['link']}">{$row['text']}</a></li>
         {/foreach}
       </ul>
 

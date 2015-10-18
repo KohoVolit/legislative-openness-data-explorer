@@ -1,5 +1,5 @@
 <footer class="footer">
-    <p>{$t['footer']['text']}</p>
+{*    <p>{$t['footer']['text']}</p>*}
     <ul class="footer-links">
       <li><a href="http://creativecommons.org/licenses/by/4.0/"><i class="fa fa-cc"></i> CC-BY</a></li>
       <li>·</li>

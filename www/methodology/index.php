@@ -3,13 +3,13 @@
 * Download page
 */
 
-$page = 'survey-and-methodology';
+$page = 'methodology';
 
 require("../common.php");
 
 //read download.md
 include('../Parsedown.php');
-$mdurl = TEXT_URL . lang($page) . "/survey-and-methodology/survey-and-methodology.md";
+$mdurl = TEXT_URL . lang($page) . "/methodology/methodology.md";
 $contents = file_get_contents($mdurl);
 $Parsedown = new Parsedown();
 $smarty->assign('main_text',$Parsedown->text($contents));

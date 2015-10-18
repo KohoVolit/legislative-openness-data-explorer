@@ -45,6 +45,16 @@ $smarty->assign('header',$header);
 //
 $smarty->assign('app_url',APP_URL);
 
+$smarty->assign('page',$page);
+
+//set theme
+$themes = ['cerulean','cosmo','custom','cyborg','darkly','flatly','journal','lumen', 'paper','readable','sandstone','simplex','slate','spacelab','superhero','united', 'yeti'];
+if (isset($_GET['theme']) and in_array($_GET['theme'],$themes)) {
+    $smarty->assign('bootswatch',$_GET['theme']);
+} else {
+    $smarty->assign('bootswatch',$themes[0]);
+}   
+
 //include 
 
 //print_r(csv2array($handle));

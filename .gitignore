@@ -3,3 +3,4 @@ smarty/templates_c/
 www/settings.php
 inc/Parsedown.php
 fonts/
+*~lock*

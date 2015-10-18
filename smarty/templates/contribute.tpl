@@ -24,10 +24,10 @@
         })
     </script>
 
-    <h1>{$t['title']['text']}</h1>
+{*    <h1>{$t['title']['text']}</h1>*}
     
     <!-- Add Data -->
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
         <h2>{$t['add_data']['text']}</h2>
         <p>{$t['add_data_text']['text']}
         <div class="row">
@@ -39,7 +39,7 @@
     </div>
     
     <!-- Suggest Edits -->
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
         <h2>{$t['suggest_edits']['text']}</h2>
         <p>{$t['suggest_edits_text']['text']}
         <div class="row">
@@ -53,7 +53,7 @@
     </div>
     
     <!-- Add Best Practices -->
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
         <h2>{$t['add_best_practices']['text']}</h2>
         <p>{$t['add_best_practices_text']['text']}
         <div class="row">
