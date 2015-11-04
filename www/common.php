@@ -137,7 +137,15 @@ function best_practices($page) {
     $Parsedown = new Parsedown();
     foreach($examples as $key => $example) {
         $url = TEXT_PATH . $lang . DIRECTORY_SEPARATOR . $page . DIRECTORY_SEPARATOR .  'examples' . DIRECTORY_SEPARATOR . $example['code'] . '.md';
-        if (is_readable($url)) {
+
+        $file_headers = @get_headers($url);
+        if(strpos($file_headers[0], '404')) {
+            $exists = false;
+        }
+        else {
+            $exists = true;
+        }
+        if ($exists) {
             $contents = file_get_contents($url);
             $parsed = parse_text($Parsedown->text($contents));
             $examples[$key]['text'] = $parsed['text'];
