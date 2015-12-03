@@ -85,3 +85,45 @@
     height: 450px;
     border: 1px solid #CCC;
 }
+
+/* menu in about */
+.bs-docs-sidebar .nav > li > a {
+	display: block;
+	padding: 4px 20px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #767676;
+}
+.bs-docs-sidebar .nav .nav > li > a {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 30px;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bs-docs-sidebar .nav > .active:focus > a, .bs-docs-sidebar .nav > .active:hover > a, .bs-docs-sidebar .nav > .active > a {
+	padding-left: 18px;
+	font-weight: 700;
+	color: #563D7C;
+	background-color: transparent;
+	border-left: 2px solid #563D7C;
+}
+.bs-docs-sidebar .nav > li > a:focus, .bs-docs-sidebar .nav > li > a:hover {
+	padding-left: 19px;
+	color: #563D7C;
+	text-decoration: none;
+	background-color: transparent;
+	border-left: 1px solid #563D7C;
+}
+.bs-docs-sidebar .nav > li > a {
+	display: block;
+	padding: 4px 20px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #767676;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+	text-decoration: none;
+	background-color: #EEE;
+}
+
