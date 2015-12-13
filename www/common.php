@@ -161,19 +161,27 @@ function best_practices($page) {
 
     //filter category
     $filter = false;
-    if (isset($_GET['category'])) {
-        if (isset($categories[$_GET['category']])) {
-            foreach ($examples as $key=>$example) {
-                $in = false;
-                foreach($example['categories'] as $cat) {
-                    if($cat == $_GET['category'])
-                        $in = true;
-                }
-                if (!$in)
-                    unset($examples[$key]);
+    $get_category = false;
+    if (!isset($_GET['category'])) {
+        if (isset($_GET['c']))
+            $get_category = $_GET['c'];
+    } else
+        $get_category = [$_GET['category']];
+    
+    if ($get_category) {
+        foreach ($examples as $key=>$example) {
+            $in = false;
+            foreach($example['categories'] as $cat) {
+                if (in_array($cat, $get_category))
+                    $in = true;
             }
-            $filter = $categories[$_GET['category']];
+            if (!$in)
+                unset($examples[$key]);
         }
+        foreach ($get_category as $gc) {
+            $filter[] = $categories[$gc];
+        }
+        
     }
     $out = [
         'categories' => $categories,
@@ -186,6 +194,7 @@ function best_practices($page) {
 function parse_categories($text,$categories) {
     $out = explode(';',$text);
     foreach ($out as $key=>$row) {
+        $out[$key] = trim($out[$key]);
         if (!isset($categories[$row]))
             unset($out[$key]);
     }

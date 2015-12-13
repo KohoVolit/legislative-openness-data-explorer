@@ -26,7 +26,11 @@
             </div>
         {/if}
     <h3>{$t['examples']['text']}
-        {if $filter}: {$filter['name']} <i class="fa fa-{$filter['icon']}"></i> <small><a href="?">{$t['all']['text']}</a></small>{/if}
+        {if $filter}: 
+            {foreach $filter as $f}
+                {$f['name']} <i class="fa fa-{$f['icon']}"></i> <small><a href="?">{$t['all']['text']}</a></small>
+            {/foreach}
+        {/if}
     </h3>
     {if count($examples) > 0}
         {foreach $examples as $example}
