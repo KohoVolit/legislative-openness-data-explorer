@@ -4,7 +4,11 @@
         <tr class="bg-primary">
                 <th>
             {foreach $questions_selected as $q}
-                <th style="vertical-align:top"><i class="fa fa-{$q->category_icon}" title="{$q->category_name}"></i> <small>{$q->question}</small>
+                <th style="vertical-align:top">
+                    {foreach $q->categories->icons as $key=>$icon}
+                        <i class="fa fa-{$icon}" title="{$q->categories->names[$key]}"></i>
+                    {/foreach}
+                 <small>{$q->question}</small>
             {/foreach}
     <tbody>
     {foreach $parliaments_selected as $p}
@@ -26,9 +30,12 @@
     <tbody>
     {foreach $questions_selected as $q}
         <tr>
-            <td><i class="fa fa-{$q->category_icon}" title="{$q->category_name}"></i> {$q->question}
+            <td>{foreach $q->categories->icons as $key=>$icon}
+                        <i class="fa fa-{$icon}" title="{$q->categories->names[$key]}"></i>
+                {/foreach} 
+                {$q->question}
         {foreach $parliaments_selected as $p}
-            <td>
+            <td align="center">
                 {include "explore_table_cell.tpl"}
         {/foreach}
     {/foreach}

@@ -25,7 +25,6 @@ $categories_used_codes = array_keys($questions_ordered);
 $categories_used = prepare_categories($categories_used_codes,$categories);
 
 
-
 // ensure that GET parameters are arrays
 $pars = ['p','q','c','cc'];
 foreach ($pars as $par) {
@@ -147,15 +146,17 @@ function filter_questions($questions) {
     else
         $dontfilter = false;
     foreach ($questions as $question) {
-        if ($question->category_code != "") {
+        if (isset($question->categories)) {
             if ($dontfilter)
                 $out[$question->id] = $question;
             else {
                 if (in_array($question->id,$_GET['q']))
                     $out[$question->id] = $question;
                 else {
-                    if ((in_array($question->category_code,$_GET['c'])) and ($question->category_code != ''))
-                        $out[$question->id] = $question;
+                    foreach ($question->categories->codes as $code) {
+                        if ((in_array($code,$_GET['c'])) and ($_GET['q'] != ''))
+                            $out[$question->id] = $question;
+                    }
                 }
             }
         }
@@ -193,12 +194,16 @@ function prepare_questions($questions) {
     $sort = [];
     //filter out questions without category, add them to $out by category
     foreach($questions as $key=>$question) {
-        if ($question->category_code != '') {
-            if (!isset($out[$question->category_code]))
-                $out[$question->category_code] = [];
-            $out[$question->category_code][] = $question;
-            $sort[$question->category_code] = $question->category_weight;
+        if (isset($question->categories)) {
+            $code = $question->categories->codes[0];
+            if (!isset($out[$code]))
+                $out[$code] = [];
+            $out[$code][] = $question;
+            $sort[$code] = $question->categories->weight;
+            $questions->$key->weight = $questions->$key->categories->weight;
         }
+        
+
     }
     array_multisort($sort, SORT_ASC, $out);
     foreach($out as $k=>$category) {

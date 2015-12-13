@@ -73,6 +73,12 @@
 .traffic-color-0 {
     color: #525252
 }
+.left {
+    text-align: left;
+}
+.selects {
+    padding-bottom:1em;
+}
 
 /* front page */
 #worldmap{

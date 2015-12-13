@@ -62,15 +62,16 @@
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4">
-            <button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#choose-chambers-modal"><strong><span class="caret"></span> {$t['choose_chambers']['text']}</strong></a>
+            <button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#choose-chambers-modal"><strong><span class="caret"></span> {$t['choose_chambers']['text']}</strong></button>
         </div>
         
         <div class="col-sm-4">
-            <button class="btn btn-default btn-lg btn-block" data-target="#choose-categories-modal" data-toggle="modal"><strong><span class="caret"></span> {$t['choose_categories']['text']}</strong></a>
+            <button class="btn btn-default btn-lg btn-block" data-target="#choose-categories-modal" data-toggle="modal"><strong><span class="caret"></span> {$t['choose_categories']['text']}</strong></button>
         </div>
     </div>
     
     <form id="explore-form">
+        <div class="selects">
     <!-- choose categories -->
         {include "explore_choose-categories.tpl"}
     <!-- /choose categories -->
@@ -78,21 +79,25 @@
     <!-- choose chambers -->
         {include "explore_choose-chambers.tpl"}
     <!-- /choose chambers -->  
+        </div>
     
     <!-- table -->
 {*        <h3>{$t['data']['text']}</h3>*}
+
+{*        {if $force_rot}*}
+{*        <button class="btn btn-primary btn-sm" id="reset-rotate">*}
+{*            <i class="fa fa-close"></i> {$t['reset_rotate']['text']}*}
+{*        </button>*}
+{*        {/if}*}
+    
+        {include "explore_table.tpl"}
+    <!-- table -->
         <button class="btn btn-default btn-sm" id="submit-rotate">
             <i class="fa fa-rotate-right"></i> {$t['rotate']['text']}
         </button>
         <input type="hidden" name="rot" id="rot" value="{$get['rot']}">
-        {if $force_rot}
-        <button class="btn btn-primary btn-sm" id="reset-rotate">
-            <i class="fa fa-close"></i> {$t['reset_rotate']['text']}
-        </button>
-        {/if}
+    
     </form>
-        {include "explore_table.tpl"}
-    <!-- table -->
     
     <!-- suggest edit -->
         {include "explore_suggest.tpl"}

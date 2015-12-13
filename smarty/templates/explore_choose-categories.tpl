@@ -41,6 +41,7 @@
                     <h4>{$category->name}</h4>
                     <table class="table table-hover">
                       <tbody>
+                        {if (isset($questions[$category->code]))}
                         {foreach $questions[$category->code] as $question}
                           {if ($question@iteration - 1) is div by 2}
                             <tr>
@@ -49,8 +50,13 @@
                             <input type="checkbox" name="q[]" value="{$question->id}"
                                 {if in_array($question->id,$get['q'])}
                                     checked
-                                {/if}> <i class="fa fa-{$question->category_icon}"></i> {$question->question}
-                        {/foreach} 
+                                {/if}> 
+                                {foreach $question->categories->icons as $icon}
+                                    <i class="fa fa-{$icon}"></i>
+                                {/foreach}
+                                     {$question->question}
+                        {/foreach}
+                        {/if}
                       </tbody>
                     </table>
                 {/foreach}
