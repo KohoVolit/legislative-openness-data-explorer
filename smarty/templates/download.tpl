@@ -4,10 +4,12 @@
     <div class="jumbotron">
         <p>{$mid_text}
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <a href="data.csv" type="button" class="btn btn-success btn-lg btn-block"><strong>{$t['button_download']['text']}</strong></a>
-                <div class="pull-right"><p><small><a href="data.xls">{$t['download_excel']['text']}</a></small></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <a href="data.csv" type="button" class="btn btn-primary btn-lg btn-block"><strong>{$t['button_download']['text']}</strong></a>
+            </div>
+            <div class="col-md-4">
+                <a href="data.xls" type="button" class="btn btn-success btn-lg btn-block"><strong>{$t['download_excel']['text']}</strong></a>
             </div>
         </div>
     </div>
