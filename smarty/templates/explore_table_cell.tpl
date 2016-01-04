@@ -6,7 +6,7 @@
       <div class="modal-header">
         
         <h5 class="modal-title" id="info-moda-title"><strong>{$p->country}</strong>: {$p->name}</h5>
-        <h4 class="modal-title" id="info-moda-title"><i class="fa fa-circle traffic-color-{$it->value} fa-2x"></i> {$q->question}</h4>
+        <h4 class="modal-title" id="info-moda-title">{$q->question}</h4>
       </div>
       
       <div class="modal-body left">
