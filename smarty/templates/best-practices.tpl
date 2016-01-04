@@ -35,10 +35,11 @@
     {if count($examples) > 0}
         {foreach $examples as $example}
             <div class="well well-lg">
-                <h4>{$example['header']}
+                <h4>
                     {foreach $example['categories'] as $cat}
                         <a href="?category={$categories[$cat]['code']}" title="{$categories[$cat]['name']}"><i class="fa fa-{$categories[$cat]['icon']}"></i></a>
                     {/foreach}
+                    {$example['header']}
                 </h4>
 
                 <p>{$example['teaser']}
