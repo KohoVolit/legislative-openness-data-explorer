@@ -20,11 +20,9 @@
            <li>
             <div>
                 {$q->subquestions->$k->subquestion}
-                {foreach $it->subquestions->$k as $st}
-                    {if $st != ""}
-                        <strong>{$st}</strong>
-                    {/if}
-                {/foreach}
+                {$tmp = 0}
+                {foreach $it->subquestions->$k as $st}{if $st != ""}{if ($tmp > 0)};{/if}
+                        <strong>{$st}</strong>{$tmp = $tmp + 1}{/if}{/foreach}
             </div>
           {/foreach}
         </ul>
