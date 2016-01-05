@@ -27,13 +27,7 @@ $smarty->assign('jumbo_text',ltrim($Parsedown->text($contents),'<p>'));
 $smarty->display($page . '.tpl');
 
 
-function selected_countries($parliaments) {
-    $out = [];
-    foreach ($parliaments as $p) {
-        $out[$p->country_code] = ["name"=>$p->country,"code"=>$p->country_code];
-    }
-    return $out;
-}
+
 
 function sort_categories($categories) {
     $out = [];
@@ -43,11 +37,5 @@ function sort_categories($categories) {
     return $out;
 }
 
-function compare_weights($a, $b) { 
-    if($a->weight == $b->weight) {
-        return 0;
-    } 
-    return ($a->weight < $b->weight) ? -1 : 1;
-}
 
 ?>
