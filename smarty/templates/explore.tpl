@@ -3,7 +3,6 @@
 <script src="{$app_url}libs/jquery.stickytableheaders.min.js"></script>
 {/block}
 {block name=body}
-
     <script>
         //shows and hides 
         $(function() {
@@ -43,13 +42,6 @@
             });
 
         })
-{*        //shows and hides *}
-{*        $(function() {*}
-{*            $(".read-more").click(function(){*}
-{*                $("#"+this.id+"-rest").show(100);*}
-{*                $("#"+this.id).hide();*}
-{*            });*}
-{*        })*}
         //init tooltips
         $(function () {
           $('[data-toggle="tooltip"]').tooltip()

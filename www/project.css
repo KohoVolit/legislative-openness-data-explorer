@@ -80,6 +80,18 @@
     padding-bottom:1em;
 }
 
+/* explore modal */
+.modal-row {
+    padding-bottom:0.5em
+}
+.modal-ul {
+    list-style-type: none;
+}
+.modal-break-word {
+    word-wrap: break-word;
+}
+
+
 /* front page */
 #worldmap{
     background: white;
