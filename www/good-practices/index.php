@@ -3,7 +3,7 @@
 * Download page
 */
 
-$page = 'best-practices';
+$page = 'good-practices';
 
 require("../common.php");
 

@@ -26,7 +26,7 @@
             </div>
         {/if}
     <h3>{$t['examples']['text']}
-        {if $filter}: 
+        {if $filter}
             {foreach $filter as $f}
                 {$f['name']} <i class="fa fa-{$f['icon']}"></i> <small><a href="?">{$t['all']['text']}</a></small>
             {/foreach}
