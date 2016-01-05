@@ -10,7 +10,7 @@
       </div>
       
       <div class="modal-body left">
-        <ul style="list-style-type: none;">
+        <ul class="modal-ul">
           {$tmp = []}
           {foreach $q->subquestions as $sk=>$sq}
             {$tmp[] = $sk}
@@ -22,7 +22,7 @@
                 <div {if $q->subquestions->$k->subquestion != ""}class="col-md-6{/if}">
                     <i class="fa fa-circle-o"></i> {$q->subquestions->$k->subquestion}
                 </div>
-                <div class="col-md-6" style="word-wrap: break-word;">
+                <div class="col-md-6" class="modal-break-word">
                 {$tmp = 0}
                 {foreach $it->subquestions->$k as $st}{if $st != ""}{if ($tmp > 0)};{/if}
                         <strong>{$st}</strong>{$tmp = $tmp + 1}{/if}{/foreach}
