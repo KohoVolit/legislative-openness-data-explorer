@@ -2,7 +2,7 @@
 /**
 * Download page
 */
-#$start = microtime(true);
+$start = microtime(true);
 $page = 'explore';
 
 require("../common.php");
@@ -12,7 +12,7 @@ $questions = json_decode(file_get_contents(APP_PATH . "inc/questions.json"));
 $categories = json_decode(file_get_contents(APP_PATH . "inc/categories.json"));
 $data = json_decode(file_get_contents(APP_PATH . "inc/data.json"));
 $parliaments = json_decode(file_get_contents(APP_PATH . "inc/parliaments.json"));
-#echo (microtime(true) - $start . "<br>");
+//echo (microtime(true) - $start . "<br>");die();
 
 // prepare parliaments for dialog
 $parliaments_ar = parliaments4dialog($parliaments);
@@ -60,7 +60,7 @@ $data_selected = select_data($data,$parliaments_selected,$questions_selected);
 
 
 //get best practices
-$best_practices = best_practices('best-practices');
+$best_practices = best_practices('good-practices');
 
 
 
