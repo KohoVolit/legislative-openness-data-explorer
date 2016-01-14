@@ -152,6 +152,7 @@ function best_practices($page) {
             $examples[$key]['header'] = $parsed['header'];
             $examples[$key]['teaser'] = $parsed['teaser'];
             $examples[$key]['rest'] = $parsed['rest'];
+            $examples[$key]['body'] = $parsed['body'];
             
             $examples[$key]['categories'] = parse_categories($examples[$key]['categories'],$categories);
         } else {
@@ -209,6 +210,7 @@ function parse_text($html) {
     $ar = explode('<p>',$html);
     $out['teaser'] = trim(substr(trim($ar[1]),0,-4));
     array_shift($ar);
+    $out['body'] = implode('<p>',$ar);
     array_shift($ar);
     $out['rest'] = '<p>'.implode('<p>',$ar);
     $out['text'] = $html;

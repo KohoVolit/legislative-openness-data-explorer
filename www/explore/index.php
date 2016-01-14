@@ -2,7 +2,7 @@
 /**
 * Download page
 */
-$start = microtime(true);
+//$start = microtime(true);
 $page = 'explore';
 
 require("../common.php");

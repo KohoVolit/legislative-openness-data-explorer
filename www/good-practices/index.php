@@ -8,7 +8,7 @@ $page = 'good-practices';
 require("../common.php");
 
 $best_practices = best_practices($page);
-
+#print_r($best_practices['examples']);die();
 
 $smarty->assign('categories',$best_practices['categories']);
 $smarty->assign('examples',$best_practices['examples']);

@@ -42,11 +42,11 @@
                     {$example['header']}
                 </h4>
 
-                <p>{$example['teaser']}
-                <p><a href="#" id="example-{$example['code']}" class="read-more"  onclick="return false">{$t['read_more']['text']}</a>
-                <div id="example-{$example['code']}-rest" style="display:none">
-                    {$example['rest']}
-                </div>
+                <p>{$example['body']}
+{*                <p><a href="#" id="example-{$example['code']}" class="read-more"  onclick="return false">{$t['read_more']['text']}</a>*}
+{*                <div id="example-{$example['code']}-rest" style="display:none">*}
+{*                    {$example['rest']}*}
+{*                </div>*}
             </div>
         {/foreach}
     {else}
