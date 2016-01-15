@@ -169,3 +169,8 @@
 	background-color: #EEE;
 }
 
+/* about */
+.h2:hover, .h3:hover, .h4:hover, .h5:hover, .h6:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
