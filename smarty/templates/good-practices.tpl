@@ -25,13 +25,24 @@
         {if ($category@iteration + 0) is not div by 4}
             </div>
         {/if}
-    <h3>{$t['examples']['text']}
-        {if $filter}
-            {foreach $filter as $f}
-                {$f['name']} <i class="fa fa-{$f['icon']}"></i> <small><a href="?">{$t['all']['text']}</a></small>
-            {/foreach}
-        {/if}
-    </h3>
+    <div class="row">  
+        <div class="col-sm-9">  
+            <h3>{$t['examples']['text']}
+                {if $filter}
+                    {foreach $filter as $f}
+                        {$f['name']} 
+        {*                <i class="fa fa-{$f['icon']}"></i>*}
+                        
+                    {/foreach}
+                {/if}
+            </h3>
+        </div>
+        <div class="col-sm-3">
+            <div class="pull-right">
+                <h3><small><a href="?">{$t['all']['text']}</a></small></h3>
+            </div>
+        </div>
+    </div>
     {if count($examples) > 0}
         {foreach $examples as $example}
             <div class="well well-lg">
