@@ -9,7 +9,7 @@
       <div class="modal-body">
         
 
-            <h3>{$t['choose_chambers']['text']}</h3>
+{*            <h3>{$t['choose_chambers']['text']}</h3>*}
             
             {foreach $regions as $region}
                 <h4>{$region}</h4>
