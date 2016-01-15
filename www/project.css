@@ -61,18 +61,42 @@
 }
 
 /* explore */
+    /*http://paletton.com*/
 .traffic-color-1 {
     color: #4DFA90
+}
+.traffic-color-1:hover {
+    color: #07E95B
+}
+.traffic-color-1:active {
+    color: #048434
 }
 .traffic-color-2 {
     color: #FABE4D
 }
+.traffic-color-2:hover {
+    color: #B57F19
+}
+.traffic-color-2:active {
+    color: #402A00
+}
 .traffic-color-3 {
     color: #FF5468
 }
-.traffic-color-0 {
-    color: #525252
+.traffic-color-3:hover {
+    color: #FE0320
 }
+.traffic-color-3:active {
+    color: #CF0018
+}
+.traffic-color-0 {
+    color: #bbbbbb
+}
+.traffic-color-0:hover {
+    color: #696969
+}
+.traffic-color-0:active {
+    color: #0F0C0C}
 .left {
     text-align: left;
 }

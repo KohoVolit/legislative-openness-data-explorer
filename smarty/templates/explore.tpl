@@ -49,7 +49,9 @@
     </script>
 
 {*    <h1>{$t['title']['text']}</h1>*}
-
+    <div class="well">
+    <i class="fa fa-info-circle"></i> {$info_text} 
+    </div>
     <!-- buttons -->    
     <div class="row">
         <div class="col-sm-1"></div>

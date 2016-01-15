@@ -62,7 +62,13 @@ $data_selected = select_data($data,$parliaments_selected,$questions_selected);
 //get best practices
 $best_practices = best_practices('good-practices');
 
+//read info.md
+//include('../Parsedown.php');
+$mdurl = TEXT_URL . lang($page) . "/explore/info.md";
+$contents = file_get_contents($mdurl);
+$Parsedown = new Parsedown();
 
+$smarty->assign('info_text',ltrim($Parsedown->text($contents),'<p>'));
 
 
 //filters data by parameters cc and p
