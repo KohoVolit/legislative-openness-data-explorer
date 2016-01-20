@@ -72,13 +72,13 @@
     color: #048434
 }
 .traffic-color-2 {
-    color: #FABE4D
+    color: #ffff80
 }
 .traffic-color-2:hover {
-    color: #B57F19
+    color: #ffff18
 }
 .traffic-color-2:active {
-    color: #402A00
+    color: #ffff00
 }
 .traffic-color-3 {
     color: #FF5468
