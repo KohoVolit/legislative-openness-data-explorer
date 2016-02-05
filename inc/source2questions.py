@@ -18,6 +18,7 @@ with open(path + "/categories.json") as fin:
 
 i = 0
 r = requests.get(url)
+r.encoding = 'utf-8'
 csvio = io.StringIO(r.text, newline="")
 for row in csv.reader(csvio):
     if i == 0:

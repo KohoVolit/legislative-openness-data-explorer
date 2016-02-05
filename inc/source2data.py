@@ -103,6 +103,7 @@ def get_value(qid,dicti):
         return 3
 
 r = requests.get(url)
+r.encoding = 'utf-8'
 csvio = io.StringIO(r.text, newline="")
 i = 0
 for row in csv.reader(csvio):
