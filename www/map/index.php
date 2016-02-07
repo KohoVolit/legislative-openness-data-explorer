@@ -57,14 +57,19 @@ $data_selected = select_data($data,$parliaments_selected,$questions_selected);
 foreach ($parliaments_selected as $key => $ps) {
     $country_code = $ps->country_code;
     if (isset($selected_countries[$country_code]['color'])) {
-        if (isset($question_id) and (isset($data_selected[$ps->id][$question_id]->value)))
-            $selected_countries[$country_code]['color'] = min($data_selected[$ps->id][$question_id]->value, $selected_countries[$country_code]['color']);
+        if (isset($question_id) and (isset($data_selected[$ps->id][$question_id]->value))) {
+            if (min($data_selected[$ps->id][$question_id]->value, $selected_countries[$country_code]['color']) > 0)
+                $selected_countries[$country_code]['color'] = min($data_selected[$ps->id][$question_id]->value, $selected_countries[$country_code]['color']);
+            else 
+                $selected_countries[$country_code]['color'] = max($data_selected[$ps->id][$question_id]->value, $selected_countries[$country_code]['color']);
+        }
     } else {
         if (isset($question_id) and (isset($data_selected[$ps->id][$question_id]->value)))
             $selected_countries[$country_code]['color'] = $data_selected[$ps->id][$question_id]->value;
         else
             $selected_countries[$country_code]['color'] = 0;
     }
+    //print_r($data_selected[$ps->id]);die();
 }
 
 //title
