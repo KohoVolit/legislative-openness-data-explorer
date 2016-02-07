@@ -102,20 +102,7 @@ $smarty->display($page . '.tpl');
 
 
 
-// prepares parliaments for dialog
-function parliaments4dialog($parliaments) {
-    $parliaments_ar = [];
-    foreach($parliaments as $row) {
-        if (!isset($parliaments_ar[$row->region]))
-            $parliaments_ar[$row->region] = [];
-        $parliaments_ar[$row->region][] = $row;
-    }
-    ksort($parliaments_ar);
-    foreach($parliaments_ar as $k=>$region) {
-        usort($parliaments_ar[$k], 'compare_countries');
-    }
-    return $parliaments_ar;
-}
+
 
 #function compare_regions($a, $b) { 
 #    if($a->region == $b->region) {
@@ -125,12 +112,5 @@ function parliaments4dialog($parliaments) {
 #}
 
 
-// prepare categories for dialog
-function prepare_categories($codes,$categories) {
-    $out = [];
-    foreach ($codes as $code) 
-        $out[] = $categories->$code;
-    return $out;
-}
 
 ?>

@@ -21,7 +21,7 @@
                       {/if}
                         <td class="col-sm-6">
                         <input type="checkbox" name="p[]" class="checkbox-chambers checkbox-chambers-{$region@iteration}" value="{$row->id}"
-                        {if (in_array($row->id,$get['p']) or (($row->country_code == $get['cc']) and ($row->country_code != '')))}
+                        {if (in_array($row->id,$get['p']) or in_array($row->country_code,$get['cc']))}
                             checked
                         {/if}
                         > <strong>{$row->country}</strong>: {$row->name}

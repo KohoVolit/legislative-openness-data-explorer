@@ -342,5 +342,29 @@ function selected_countries($parliaments) {
     return $out;
 }
 
+
+// prepare categories for dialog
+function prepare_categories($codes,$categories) {
+    $out = [];
+    foreach ($codes as $code) 
+        $out[] = $categories->$code;
+    return $out;
+}
+
+// prepares parliaments for dialog
+function parliaments4dialog($parliaments) {
+    $parliaments_ar = [];
+    foreach($parliaments as $row) {
+        if (!isset($parliaments_ar[$row->region]))
+            $parliaments_ar[$row->region] = [];
+        $parliaments_ar[$row->region][] = $row;
+    }
+    ksort($parliaments_ar);
+    foreach($parliaments_ar as $k=>$region) {
+        usort($parliaments_ar[$k], 'compare_countries');
+    }
+    return $parliaments_ar;
+}
+
 ?>
 

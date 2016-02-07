@@ -13,6 +13,10 @@ $categories = json_decode(file_get_contents(APP_PATH . "inc/categories.json"));
 $data = json_decode(file_get_contents(APP_PATH . "inc/data.json"));
 $parliaments = json_decode(file_get_contents(APP_PATH . "inc/parliaments.json"));
 
+// prepare parliaments for dialog
+$parliaments_ar = parliaments4dialog($parliaments);
+$regions = array_keys($parliaments_ar);
+
 // ensure that GET parameters are arrays
 $pars = ['p','q','c','cc'];
 foreach ($pars as $par) {
@@ -32,6 +36,8 @@ $selected_countries = selected_countries($parliaments_selected);
 
 // prepare questions/categories (add weight)
 $questions_ordered = prepare_questions($questions);
+$categories_used_codes = array_keys($questions_ordered);
+$categories_used = prepare_categories($categories_used_codes,$categories);
 
 //filter and sort questions
 $questions_selected = filter_questions($questions);
@@ -68,12 +74,12 @@ else
     $title = '';
 
 $smarty->assign('title',$title);
-#$smarty->assign('get',$_GET);
+$smarty->assign('get',$_GET);
 #$smarty->assign('force_rot',$force_rot);
-#$smarty->assign('parliaments',$parliaments_ar);
-#$smarty->assign('regions',$regions);
+$smarty->assign('parliaments',$parliaments_ar);
+$smarty->assign('regions',$regions);
 $smarty->assign('questions',$questions_ordered);
-#$smarty->assign('categories',$categories);
+$smarty->assign('categories',$categories);
 $smarty->assign('data_selected',$data_selected);
 $smarty->assign('parliaments_selected',$parliaments_selected);
 $smarty->assign('questions_selected',$questions_selected);
