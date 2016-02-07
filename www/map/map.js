@@ -78,6 +78,7 @@ function enterLayer(){
     weight:2,
     opacity: 1
   });
+    this.bindPopup(this.feature.properties.name).openPopup();
 }
 function leaveLayer(){
   $countryName.hide();
