@@ -30,6 +30,30 @@
                 $("explore-form").submit();
             });
         });
+        
+        //de-select all chambers
+        $(function() {
+            $("#select-all-chambers").click(function(){
+                $(".checkbox-chambers").attr('checked',true);
+                $(".checkbox-chambers").prop('checked', 'checked');
+            });
+            $("#deselect-all-chambers").click(function(){
+                $(".checkbox-chambers").attr('checked',false);
+                $(".checkbox-chambers").prop('checked', '');
+            });
+            $(".select-chambers").click(function(){
+                r = $(this).data('region');
+                $(".checkbox-chambers-"+r).attr('checked',true);
+                $(".checkbox-chambers-"+r).prop('checked', 'checked');
+            });
+            $(".deselect-chambers").click(function(){
+                r = $(this).data('region');
+                $(".checkbox-chambers-"+r).attr('checked',false);
+                $(".checkbox--chambers-"+r).prop('checked', '');
+            });
+
+        })
+        
         //shows and hides forms
         $(function() {
             $("#show-suggest-edits").click(function(){
