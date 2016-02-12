@@ -10,7 +10,7 @@
     <h1>{$title}</h1>
 
     <div class="row">
-        <div class="col-sm-4"></div>
+{*        <div class="col-sm-4"></div>*}
 {*        <div class="col-sm-4">*}
 {*            <button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#choose-chambers-modal"><strong><span class="caret"></span> {$t['choose_chambers']['text']}</strong></button>*}
 {*        </div>*}
