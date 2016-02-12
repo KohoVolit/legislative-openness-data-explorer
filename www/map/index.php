@@ -54,16 +54,14 @@ foreach ($questions_selected as $qs) {
 $data_selected = select_data($data,$parliaments_selected,$questions_selected);
 
 //add color to selected countries
+// grey: 0, green: 1, yellow: 2, red: 3
 foreach ($parliaments_selected as $key => $ps) {
     $country_code = $ps->country_code;
-    if (isset($selected_countries[$country_code]['color'])) {
+    if (isset($selected_countries[$country_code]['color'])) {   //adding second chamber
         if (isset($question_id) and (isset($data_selected[$ps->id][$question_id]->value))) {
-            if (min($data_selected[$ps->id][$question_id]->value, $selected_countries[$country_code]['color']) > 0)
-                $selected_countries[$country_code]['color'] = min($data_selected[$ps->id][$question_id]->value, $selected_countries[$country_code]['color']);
-            else 
-                $selected_countries[$country_code]['color'] = max($data_selected[$ps->id][$question_id]->value, $selected_countries[$country_code]['color']);
+            $selected_countries[$country_code]['color'] = color_sum($data_selected[$ps->id][$question_id]->value, $selected_countries[$country_code]['color']);
         }
-    } else {
+    } else {    //first chamber
         if (isset($question_id) and (isset($data_selected[$ps->id][$question_id]->value)))
             $selected_countries[$country_code]['color'] = $data_selected[$ps->id][$question_id]->value;
         else
@@ -96,3 +94,15 @@ $smarty->assign('countries',json_encode($selected_countries));
 
 
 $smarty->display($page . '.tpl');
+
+/**
+* sum two colors, according to https://github.com/KohoVolit/legislative-openness-data-explorer/issues/24
+// grey: 0, green: 1, yellow: 2, red: 3
+*/
+function color_sum ($a,$b) {
+    if (min($a,$b) == 0)
+        return max($a,$b);
+    if (min($a,$b) == 2 and max($a,$b) == 3)
+        return 3;
+    return floor(($a + $b)/2);
+}
