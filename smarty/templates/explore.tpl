@@ -31,6 +31,21 @@
             });
         });
         
+        
+        
+        //shows and hides forms
+        $(function() {
+            $("#show-suggest-edits").click(function(){
+                $(".suggest-edits-hidden").show(1000);
+                $(".suggest-edits-hide").hide(1000);
+            });
+            $("#hide-suggest-edits").click(function(){
+                $(".suggest-edits-hidden").hide(1000);
+                $(".suggest-edits-hide").show(1000);
+            });
+        })
+
+        
         //de-select all chambers
         $(function() {
             $("#select-all-chambers").click(function(){

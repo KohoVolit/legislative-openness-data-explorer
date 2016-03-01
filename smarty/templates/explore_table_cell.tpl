@@ -33,7 +33,8 @@
       </div>
       
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" id="show-suggest-edits">{$t['suggest_edits_button']['text']}</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">{$t['close']['text']}</button>
       </div>
 
     </div>
