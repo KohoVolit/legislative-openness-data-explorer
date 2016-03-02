@@ -9,7 +9,7 @@
                     {/if}
                 ><a href="{$app_url}{$row['link']}">{$row['text']}</a></li>
                 {if (!$row@last)}
-                    <li>·</li>
+                    <li>∙</li>
                 {/if}
             {/foreach}
             </ul>
@@ -26,7 +26,7 @@
          <div class="col-md-6">  
             <ul class="footer-links">
               <li><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><i class="fa fa-creative-commons"></i> CC Attribution 4.0 International License</a></li>
-              <li>·</li>
+              <li>∙</li>
               <li><a href="https://github.com/KohoVolit/legislative-openness-data-explorer/"><i class="fa fa-github"></i> Source</a></li>
             </ul>
         </div>
