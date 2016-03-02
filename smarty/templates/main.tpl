@@ -77,4 +77,5 @@
     </script>
     <!-- /google analytics -->
   </body>
+  <!-- Favicon made by Freepik from www.flaticon.com -->
 </html>
