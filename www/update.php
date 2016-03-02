@@ -10,6 +10,8 @@ $page = 'update';
 $relative_path = "";
 require($relative_path . 'settings.php');
 
+require($relative_path . "common.php");
+
 $tmp = system("python3 " . APP_PATH . "inc/source2parliaments.py");
 
 $tmp = system("python3 " . APP_PATH . "inc/source2questions.py");
