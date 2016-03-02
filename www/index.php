@@ -3,9 +3,15 @@
 * Front page
 */
 
+$relative_path = "";
+require($relative_path . 'settings.php');
+
+include ($relative_path . "cache.php");
+
 $page = 'front-page';
 
-require("common.php");
+
+require($relative_path . "common.php");
 
 //get countries
 $parliaments = json_decode(file_get_contents(APP_PATH . "inc/parliaments.json"));

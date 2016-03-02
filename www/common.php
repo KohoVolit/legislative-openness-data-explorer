@@ -10,8 +10,6 @@
 
 session_start();
 
-require('settings.php');
-
 //set up Smarty
 require(SMARTY_PATH);
 $smarty = new Smarty();

@@ -3,9 +3,14 @@
 * Download page
 */
 
+$relative_path = "../";
+require($relative_path . 'settings.php');
+
+include ($relative_path . "cache.php");
+
 $page = 'contribute';
 
-require("../common.php");
+require($relative_path . "common.php");
 
 $smarty->display($page . '.tpl');
 

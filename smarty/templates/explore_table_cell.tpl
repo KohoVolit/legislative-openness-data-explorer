@@ -33,7 +33,7 @@
       </div>
       
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" id="show-suggest-edits">{$t['suggest_edits_button']['text']}</button>
+        <a href="{$t['suggest_edits_google_form_modal']['link']}{$t['suggest_edits_google_form_modal_entry_1']['text']}={$p->country|urlencode}:+{$p->name|urlencode}&{$t['suggest_edits_google_form_modal_entry_2']['text']}={$q->question|urlencode}" target="_blank" type="button" class="btn btn-default" id="show-suggest-edits">{$t['suggest_edits_button']['text']}</a>
         <button type="button" class="btn btn-primary" data-dismiss="modal">{$t['close']['text']}</button>
       </div>
 

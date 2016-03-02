@@ -4,3 +4,4 @@ www/settings.php
 inc/Parsedown.php
 fonts/
 *~lock*
+cache/

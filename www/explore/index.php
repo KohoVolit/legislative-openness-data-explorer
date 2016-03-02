@@ -2,10 +2,15 @@
 /**
 * Download page
 */
-//$start = microtime(true);
+
+$relative_path = "../";
+require($relative_path . 'settings.php');
+
+include ($relative_path . "cache.php");
+
 $page = 'explore';
 
-require("../common.php");
+require($relative_path . "common.php");
 
 //read data
 $questions = json_decode(file_get_contents(APP_PATH . "inc/questions.json"));

@@ -3,12 +3,18 @@
 * Download page
 */
 
-$page = 'methodology';
+$relative_path = "../";
+require($relative_path . 'settings.php');
 
-require("../common.php");
+include ($relative_path . "cache.php");
+
+$page = 'methodology';
+$relative_path = "../";
+
+require($relative_path . "common.php");
 
 //read download.md
-include('../Parsedown.php');
+include($relative_path . 'Parsedown.php');
 $mdurl = TEXT_URL . lang($page) . "/methodology/methodology.md";
 $contents = file_get_contents($mdurl);
 $Parsedown = new Parsedown();
