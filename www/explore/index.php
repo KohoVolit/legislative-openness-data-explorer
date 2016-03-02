@@ -101,6 +101,7 @@ $smarty->assign('questions_selected',$questions_selected);
 $smarty->assign('bp_categories',$best_practices['categories']);
 $smarty->assign('bp_examples',$best_practices['examples']);
 #$smarty->assign('bp_filter',$best_practices['filter']);
+$smarty->assign('relative_path',$relative_path);
 
 
 $smarty->display($page . '.tpl');

@@ -25,6 +25,8 @@ foreach($files as $file){ // iterate files
     unlink($file); // delete file
 }
 
+$smarty->assign('relative_path',$relative_path);
+
 $smarty->display($page . '.tpl');
 
 ?>

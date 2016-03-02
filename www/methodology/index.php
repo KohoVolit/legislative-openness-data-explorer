@@ -20,6 +20,8 @@ $contents = file_get_contents($mdurl);
 $Parsedown = new Parsedown();
 $smarty->assign('main_text',$Parsedown->text($contents));
 
+$smarty->assign('relative_path',$relative_path);
+
 $smarty->display($page . '.tpl');
 
 ?>

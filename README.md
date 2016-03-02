@@ -21,7 +21,7 @@ Note: `www/inc/*.py` files are rather tightly connected to the current dataset. 
 ### Clear cache
 Go to `http(s)://<example.com>/clear-cache.php`
 
-Note: The cache is also cleared during data update.
+Note: The cache is also cleared during data update and regularly based on value in `www/settings.json`
 
 ## Data Settings
 Correct dataset needs to be set in `www/inc/*.py` files, as well as in `www/settings.json`

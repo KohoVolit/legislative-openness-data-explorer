@@ -23,6 +23,7 @@ $smarty->assign('mid_text',$Parsedown->text($contents));
 $smarty->assign('csv_link',SOURCE);
 $smarty->assign('xlsx_link',str_replace('output=csv','output=xlsx',SOURCE));
 
+$smarty->assign('relative_path',$relative_path);
 
 $smarty->display($page . '.tpl');
 

@@ -12,6 +12,8 @@ $page = 'contribute';
 
 require($relative_path . "common.php");
 
+$smarty->assign('relative_path',$relative_path);
+
 $smarty->display($page . '.tpl');
 
 ?>

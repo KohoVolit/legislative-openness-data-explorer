@@ -30,6 +30,8 @@ $smarty->assign('countries',json_encode($selected_countries));
 $smarty->assign('categories',$categories_sorted);
 $smarty->assign('jumbo_text',ltrim($Parsedown->text($contents),'<p>'));
 
+$smarty->assign('relative_path',$relative_path);
+
 $smarty->display($page . '.tpl');
 
 

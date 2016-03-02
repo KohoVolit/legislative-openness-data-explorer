@@ -97,6 +97,7 @@ $smarty->assign('countries',json_encode($selected_countries));
 #$smarty->assign('bp_examples',$best_practices['examples']);
 #$smarty->assign('bp_filter',$best_practices['filter']);
 
+$smarty->assign('relative_path',$relative_path);
 
 $smarty->display($page . '.tpl');
 

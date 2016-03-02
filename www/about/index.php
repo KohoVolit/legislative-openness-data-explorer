@@ -69,6 +69,8 @@ foreach($hs as $h) {
 
 $smarty->assign('headers',$headers);
 
+$smarty->assign('relative_path',$relative_path);
+
 $smarty->display($page . '.tpl');
 
 
