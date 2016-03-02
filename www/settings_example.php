@@ -26,4 +26,7 @@ const TEXT_URL = "http://localhost/michal/project/legislative-openness-data-expl
 //cache time in hours
 const CACHE_TIME = 1000;
 
+//data source (google csv file)
+const SOURCE = "https://docs.google.com/spreadsheet/ccc?key=1iABzv1hjXP0Ky9Jm_tggyfLzU_B0s0RiCy_nOkGBMAg&output=csv"
+
 ?>
