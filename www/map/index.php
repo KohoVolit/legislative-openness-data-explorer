@@ -76,12 +76,16 @@ foreach ($parliaments_selected as $key => $ps) {
 }
 
 //title
-if (isset($question_id) and isset($questions->$question_id))
+if (isset($question_id) and isset($questions->$question_id)) {
     $title = $questions->$question_id->question;
-else
+    $qid = $question_id;
+} else {
     $title = '';
+    $qid = "";
+}
 
 $smarty->assign('title',$title);
+$smarty->assign('qid',$qid);
 $smarty->assign('get',$_GET);
 #$smarty->assign('force_rot',$force_rot);
 $smarty->assign('parliaments',$parliaments_ar);

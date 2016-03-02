@@ -57,18 +57,18 @@ function handleLayer(layer){
     });
     layer.on({
       mouseover : enterLayer,
-      mouseout: leaveLayer//,
-      //click: onMapClick
+      mouseout: leaveLayer,
+      click: onMapClick
     });
 }
-//function onMapClick(){
-//    var code = this.feature.properties.code;
-//    if (typeof(countries[code]) != 'undefined') {
-//        window.location = 'explore?cc=' + code
-//    } else {
-//        window.location = 'contribute';
-//    }
-//}
+function onMapClick(){
+    var code = this.feature.properties.code;
+    if (typeof(countries[code]) != 'undefined') {
+        window.location = '../explore?cc=' + code + "&q=" + qid
+    } else {
+        window.location = 'contribute';
+    }
+}
 function enterLayer(){
   var countryName = this.feature.properties.code + ": " + this.feature.properties.name;
   $countryName.text(countryName).show();
@@ -78,7 +78,7 @@ function enterLayer(){
     weight:2,
     opacity: 1
   });
-    this.bindPopup(this.feature.properties.name).openPopup();
+    //this.bindPopup(this.feature.properties.name).openPopup();
 }
 function leaveLayer(){
   $countryName.hide();
