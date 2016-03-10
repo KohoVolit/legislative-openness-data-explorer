@@ -20,8 +20,6 @@ $Parsedown = new Parsedown();
 $smarty->assign('mid_text',$Parsedown->text($contents));
 
 //source files
-$smarty->assign('csv_link',SOURCE);
-$smarty->assign('xlsx_link',str_replace('output=csv','output=xlsx',SOURCE));
 
 $smarty->assign('relative_path',$relative_path);
 
