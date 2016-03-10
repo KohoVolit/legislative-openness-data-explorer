@@ -8,8 +8,11 @@ import requests
 
 questions = {}
 
-tmp = os.path.realpath(__file__).split("/")
-path = "/".join(tmp[:-1])
+try:
+    tmp = os.path.realpath(__file__).split("/")
+    path = "/".join(tmp[:-1])
+except:
+    path = os.getcwd()
 
 url = "https://docs.google.com/spreadsheet/ccc?key=1iABzv1hjXP0Ky9Jm_tggyfLzU_B0s0RiCy_nOkGBMAg&output=csv" #url of the CSV
 
@@ -34,7 +37,7 @@ for row in csv.reader(csvio):
     if i == 7:
         crow = row
     i += 1
-        
+
 
 def text2cats(w,categories):
     out = {"names":[],"codes":[],"icons":[]}
@@ -46,7 +49,7 @@ def text2cats(w,categories):
         out["icons"].append(categories[r.strip().lower().replace(' ','-')]['icon'])
         if categories[r.strip().lower().replace(' ','-')]['weight'] < weight:
             weight = categories[r.strip().lower().replace(' ','-')]['weight']
-    out['weight'] = weight 
+    out['weight'] = weight
     return out
 
 j = 0
@@ -72,6 +75,6 @@ for r in qidsrow:
             questions[r]['category_weight'] = questions[r]['categories']['weight']
             questions[r]['question'] = qrow[j].strip()
     j += 1
-    
+
 with open(path + "/questions.json","w") as fout:
-    json.dump(questions,fout)       
+    json.dump(questions,fout)

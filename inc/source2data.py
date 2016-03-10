@@ -11,8 +11,11 @@ first = 10  #row with first parliament
 
 url = "https://docs.google.com/spreadsheet/ccc?key=1iABzv1hjXP0Ky9Jm_tggyfLzU_B0s0RiCy_nOkGBMAg&output=csv" #url of the CSV
 
-tmp = os.path.realpath(__file__).split("/")
-path = "/".join(tmp[:-1])
+try:
+    tmp = os.path.realpath(__file__).split("/")
+    path = "/".join(tmp[:-1])
+except:
+    ppath = os.getcwd()
 
 data = {}
 
@@ -27,7 +30,7 @@ def get_value(qid,dicti):
             return 1
         else:
             return 0
-        
+
     if qid == 7:
         if 'No' in dicti['0']:
             return 0
@@ -36,7 +39,7 @@ def get_value(qid,dicti):
         if dicti['1'][0] != '' or dicti['1'][1] != '':
             return 2
         return 3
-        
+
     if qid == 8:
         if dicti['1'][0] != '' or dicti['1'][1] != '':
             return 1
@@ -56,7 +59,7 @@ def get_value(qid,dicti):
         if s > 0:
             return 2
         return 3
-    
+
     if qid == 11:
         s = 0
         for it in dicti['1'][0:3]+dicti['1'][5:10]:
@@ -67,7 +70,7 @@ def get_value(qid,dicti):
         if s > 0:
             return 2
         return 3
-            
+
 
     if qid in [14,12,13,15,17,18,19,20,22,23,24,27,28,29,30,31,32,33,34, 35,36,37,38,39,40,41,42,43,44,45,46,47,48]:
         li = dicti['1']
@@ -77,7 +80,7 @@ def get_value(qid,dicti):
             return 3
         else:
             return 0
-            
+
     if qid in [16]:
         s = 0
         for it in dicti['1'][0:5]:
@@ -90,7 +93,7 @@ def get_value(qid,dicti):
         if dicti['1'][6] != '':
             return 0
         return 3
-        
+
     if qid == 26:
         s = 0
         for it in dicti['1'][0:5]:
@@ -113,7 +116,7 @@ for row in csv.reader(csvio):
         qidsrow = row
     if i == 5:
         sidsrow = row
-        
+
     if i >= first:
         localdata = {}
         j = 0
@@ -134,7 +137,6 @@ for row in csv.reader(csvio):
                 localdata[k1]['value'] = get_value(k1,localdata[k1]['subquestions'])
         data[row[c2p-1]] = localdata
     i += 1
-        
-with open(path + "/data.json","w") as fout:
-    json.dump(data,fout)         
 
+with open(path + "/data.json","w") as fout:
+    json.dump(data,fout)
