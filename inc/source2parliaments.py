@@ -11,7 +11,7 @@ try:
     tmp = os.path.realpath(__file__).split("/")
     path = "/".join(tmp[:-1])
 except:
-    path = ".."
+    path = os.getcwd()
 
 url = "https://docs.google.com/spreadsheet/ccc?key=1iABzv1hjXP0Ky9Jm_tggyfLzU_B0s0RiCy_nOkGBMAg&output=csv" # url of the CSV
 
