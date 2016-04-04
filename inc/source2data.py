@@ -15,14 +15,14 @@ try:
     tmp = os.path.realpath(__file__).split("/")
     path = "/".join(tmp[:-1])
 except:
-    ppath = os.getcwd()
+    path = os.getcwd()
 
 data = {}
 
 # value for questions with some logic (based on their question ID):
 def get_value(qid,dicti):
     qid = int(qid)
-    if qid in [1,2,3,4,5,6,10,21]:
+    if qid in [1,2,3,5,6,10,21]:
         li = dicti['1']
         if 'No' in li:
             return 3
@@ -31,9 +31,18 @@ def get_value(qid,dicti):
         else:
             return 0
 
-    if qid == 7:
-        if 'No' in dicti['0']:
+    if qid in [4]:
+        li = dicti['1']
+        if 'No' in li:
+            return 1
+        if 'Yes' in li:
+            return 3
+        else:
             return 0
+
+    if qid == 7:
+        # if 'No' in dicti['0']:
+        #     return 0
         if dicti['1'][0] != '' and dicti['1'][1] != '':
             return 1
         if dicti['1'][0] != '' or dicti['1'][1] != '':
@@ -74,6 +83,10 @@ def get_value(qid,dicti):
 
     if qid in [14,12,13,15,17,18,19,20,22,23,24,27,28,29,30,31,32,33,34, 35,36,37,38,39,40,41,42,43,44,45,46,47,48]:
         li = dicti['1']
+        i = 0
+        for it in li:
+            li[i] = it.strip()
+            i += 1
         if 'Yes, online' in li or 'Yes, offline' in li:
             return 1
         if 'No' in li:
