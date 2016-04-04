@@ -81,7 +81,6 @@
     </div>
     <!-- buttons -->
     <div class="row">
-        <div class="col-sm-1"></div>
         <div class="col-sm-4">
             <button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#choose-chambers-modal"><strong><span class="caret"></span> {$t['choose_chambers']['text']}</strong></button>
         </div>
@@ -90,7 +89,7 @@
             <button class="btn btn-default btn-lg btn-block" data-target="#choose-categories-modal" data-toggle="modal"><strong><span class="caret"></span> {$t['choose_categories']['text']}</strong></button>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <a href="../map?{$query_string}" target="_blank" class="btn btn-primary btn-lg btn-block"><strong><span class="fa fa-globe"></span> {$t['generate_map']['text']}</strong></a>
         </div>
     </div>
