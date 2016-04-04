@@ -11,7 +11,7 @@
   define('CACHE_PATH', APP_PATH . "www/cache/");
 
   // how long to keep the cache files (hours)
-  //define('CACHE_TIME', 1);
+  //define('CACHE_TIME', 24);
 
   // return location and name for cache file
   function cache_file()
@@ -26,11 +26,25 @@
 
     // check that cache file exists and is not too old
     if(!file_exists($file)) return;
-    if(filemtime($file) < time() - CACHE_TIME * 3600) return;
+    if(filemtime($file) < time() - CACHE_TIME * 3600) {
+        clear_cache();
+        return;
+    }
 
     // if so, display cache file and stop processing
     echo gzuncompress(file_get_contents($file));
     exit;
+  }
+
+  //clear cache
+  function clear_cache() {
+      $files = glob(CACHE_PATH . '*'); // get all file names
+      foreach($files as $file){ // iterate files
+        if(is_file($file)) {
+          if(filemtime($file) < time() - CACHE_TIME * 3600)
+            unlink($file); // delete file
+        }
+      }
   }
 
   // write to cache file
@@ -38,7 +52,7 @@
   {
     $f = fopen(cache_file(), 'w');
     if(false !== $f) {
-      fwrite($f, gzcompress($content));	
+      fwrite($f, gzcompress($content));
       fclose($f);
     }
     return $content;

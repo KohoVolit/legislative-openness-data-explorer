@@ -4,7 +4,7 @@
 {/block}
 {block name=body}
     <script>
-        //shows and hides 
+        //shows and hides
         $(function() {
             $(".show-details").click(function(){
                 $("#"+this.id+"-body").show(100);
@@ -30,9 +30,9 @@
                 $("explore-form").submit();
             });
         });
-        
-        
-        
+
+
+
         //shows and hides forms
         $(function() {
             $("#show-suggest-edits").click(function(){
@@ -43,9 +43,9 @@
                 $(".suggest-edits-hidden").hide(1000);
                 $(".suggest-edits-hide").show(1000);
             });
-        })
+        });
 
-        
+
         //de-select all chambers
         $(function() {
             $("#select-all-chambers").click(function(){
@@ -67,57 +67,45 @@
                 $(".checkbox--chambers-"+r).prop('checked', '');
             });
 
-        })
-        
-        //shows and hides forms
-        $(function() {
-            $("#show-suggest-edits").click(function(){
-                $(".suggest-edits-hidden").show(1000);
-                $(".suggest-edits-hide").hide(1000);
-            });
-            $("#hide-suggest-edits").click(function(){
-                $(".suggest-edits-hidden").hide(1000);
-                $(".suggest-edits-hide").show(1000);
-            });
+        });
 
-        })
         //init tooltips
         $(function () {
           $('[data-toggle="tooltip"]').tooltip()
-        })
+      });
     </script>
 
 {*    <h1>{$t['title']['text']}</h1>*}
     <div class="well">
-    <i class="fa fa-info-circle"></i> {$info_text} 
+    <i class="fa fa-info-circle"></i> {$info_text}
     </div>
-    <!-- buttons -->    
+    <!-- buttons -->
     <div class="row">
         <div class="col-sm-1"></div>
         <div class="col-sm-4">
             <button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#choose-chambers-modal"><strong><span class="caret"></span> {$t['choose_chambers']['text']}</strong></button>
         </div>
-        
+
         <div class="col-sm-4">
             <button class="btn btn-default btn-lg btn-block" data-target="#choose-categories-modal" data-toggle="modal"><strong><span class="caret"></span> {$t['choose_categories']['text']}</strong></button>
         </div>
-        
+
         <div class="col-sm-3">
             <a href="../map?{$query_string}" target="_blank" class="btn btn-primary btn-lg btn-block"><strong><span class="fa fa-globe"></span> {$t['generate_map']['text']}</strong></a>
         </div>
     </div>
-    
+
     <form id="explore-form">
         <div class="selects">
     <!-- choose categories -->
         {include "explore_choose-categories.tpl"}
     <!-- /choose categories -->
-    
+
     <!-- choose chambers -->
         {include "explore_choose-chambers.tpl"}
-    <!-- /choose chambers -->  
+    <!-- /choose chambers -->
         </div>
-    
+
     <!-- table -->
 {*        <h3>{$t['data']['text']}</h3>*}
 
@@ -126,16 +114,16 @@
 {*            <i class="fa fa-close"></i> {$t['reset_rotate']['text']}*}
 {*        </button>*}
 {*        {/if}*}
-    
+
         {include "explore_table.tpl"}
     <!-- table -->
         <button class="btn btn-default btn-sm" id="submit-rotate">
             <i class="fa fa-rotate-right"></i> {$t['rotate']['text']}
         </button>
         <input type="hidden" name="rot" id="rot" value="{$get['rot']}">
-    
+
     </form>
-    
+
     <!-- suggest edit -->
         {include "explore_suggest.tpl"}
     <!-- /suggest edit -->

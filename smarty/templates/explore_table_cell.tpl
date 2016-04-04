@@ -4,11 +4,11 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        
+
         <h5 class="modal-title" id="info-moda-title"><strong>{$p->country}</strong>: {$p->name}</h5>
         <h4 class="modal-title" id="info-moda-title">{$q->question}</h4>
       </div>
-      
+
       <div class="modal-body left">
         <ul class="modal-ul">
           {$tmp = []}
@@ -31,9 +31,9 @@
           {/foreach}
         </ul>
       </div>
-      
+
       <div class="modal-footer">
-        <a href="{$t['suggest_edits_google_form_modal']['link']}{$t['suggest_edits_google_form_modal_entry_1']['text']}={$p->country|urlencode}:+{$p->name|urlencode}&{$t['suggest_edits_google_form_modal_entry_2']['text']}={$q->question|urlencode}" target="_blank" type="button" class="btn btn-default" id="show-suggest-edits">{$t['suggest_edits_button']['text']}</a>
+        <a href="{$t['suggest_edits_google_form_modal']['link']}{$t['suggest_edits_google_form_modal_entry_1']['text']}={$p->country|urlencode}:+{$p->name|urlencode}&{$t['suggest_edits_google_form_modal_entry_2']['text']}={$q->question|urlencode}" target="_blank" type="button" class="btn btn-default">{$t['suggest_edits_button']['text']}</a>
         <button type="button" class="btn btn-primary" data-dismiss="modal">{$t['close']['text']}</button>
       </div>
 
