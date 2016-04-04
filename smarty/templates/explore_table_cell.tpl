@@ -5,7 +5,7 @@
     <div class="modal-content">
       <div class="modal-header">
 
-        <h5 class="modal-title" id="info-moda-title"><strong>{$p->country}</strong>: {$p->name}</h5>
+        <h5 class="modal-title" id="info-modal-title"><strong>{$p->country}</strong>: {$p->name}</h5>
         <h4 class="modal-title" id="info-moda-title">{$q->question}</h4>
       </div>
 
@@ -18,11 +18,11 @@
           {/foreach}
           {foreach $tmp as $k}
            <li>
-            <div class="row" class="modal-row">
+            <div class="row modal-row">
                 <div {if $q->subquestions->$k->subquestion != ""}class="col-md-6{/if}">
                     <i class="fa fa-circle-o"></i> {$q->subquestions->$k->subquestion}
                 </div>
-                <div class="col-md-6" class="modal-break-word">
+                <div class="col-md-6 modal-break-word">
                 {$tmp = 0}
                 {foreach $it->subquestions->$k as $st}{if $st != ""}{if ($tmp > 0)};{/if}
                         <strong>{$st}</strong>{$tmp = $tmp + 1}{/if}{/foreach}

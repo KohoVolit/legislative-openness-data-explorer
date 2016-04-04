@@ -63,6 +63,8 @@ if (!(isset($_GET['rot']) and (in_array($_GET['rot'],[1,2])))) {
 //select data
 $data_selected = select_data($data,$parliaments_selected,$questions_selected);
 
+//create links
+$data_selected = create_links($data_selected);
 
 //get best practices
 $best_practices = best_practices('good-practices');
@@ -81,11 +83,6 @@ $smarty->assign('info_text',ltrim($Parsedown->text($contents),'<p>'));
 
 //filter questions, put into array and sort them
 //$questions_order = filter_questions($questions);
-
-#print_r($data_selected);die();
-#print_r($questions_selected);die();
-
-
 
 $smarty->assign('get',$_GET);
 $smarty->assign('query_string',$_SERVER['QUERY_STRING']);
@@ -107,16 +104,19 @@ $smarty->assign('relative_path',$relative_path);
 $smarty->display($page . '.tpl');
 
 
-
-
-
-#function compare_regions($a, $b) { 
-#    if($a->region == $b->region) {
-#        return 0;
-#    } 
-#    return ($a->region < $b->region) ? -1 : 1;
-#}
-
-
+function create_links($data) {
+    foreach($data as $k1=>$r1) {
+        foreach ($data[$k1] as $k2 => $r2) {
+            foreach($data[$k1][$k2]->subquestions as $k3=>$arr) {
+                $newarr = [];
+                foreach ($arr as $k4=>$row) {
+                    $newarr[] = find_prepare_links($row);
+                }
+                $data[$k1][$k2]->subquestions->$k3 = $newarr;
+            }
+        }
+    }
+    return $data;
+}
 
 ?>

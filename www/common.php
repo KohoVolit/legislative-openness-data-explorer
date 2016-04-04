@@ -25,12 +25,12 @@ $smarty->assign('lang',$lang);
 $handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . $page . DIRECTORY_SEPARATOR . 'texts.csv', "r");
 $texts_specific = csv2array($handle);
     //meta
-$handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'meta' . DIRECTORY_SEPARATOR . 'texts.csv', "r"); 
+$handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'meta' . DIRECTORY_SEPARATOR . 'texts.csv', "r");
 $texts_meta = csv2array($handle);
     //header
-$handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'header' . DIRECTORY_SEPARATOR . 'texts.csv', "r"); 
+$handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'header' . DIRECTORY_SEPARATOR . 'texts.csv', "r");
 $texts_header = csv2array($handle);
-    //join 
+    //join
 $smarty->assign('t',array_merge($texts_header,array_merge($texts_specific,$texts_meta)));
 
 //create header
@@ -51,23 +51,7 @@ if (isset($_GET['theme']) and in_array($_GET['theme'],$themes)) {
     $smarty->assign('bootswatch',$_GET['theme']);
 } else {
     $smarty->assign('bootswatch',$themes[0]);
-}   
-
-//include 
-
-//print_r(csv2array($handle));
-
-/**
-* creates correct link
-*/
-#function link($page,$link) {
-##    if ($page == 'frontpage')
-##        $chunk = '';
-##    else
-##        $chunk = $page . DIRECTORY_SEPARATOR;
-#    $out = APP_URL . $link;
-#    return $out;
-#}
+}
 
 /**
 * set language
@@ -78,7 +62,7 @@ function lang($page) {
             $_SESSION["lang"] = $_GET['lang'];
             return $_GET['lang'];
         }
-    else 
+    else
         {
         if (isset($_SESSION['lang']))
             return $_SESSION['lang'];
@@ -89,7 +73,7 @@ function lang($page) {
 
 /**
 * reads csv file into associative array
-* 
+*
 */
 function csv2array($handle, $pre = "") {
     $array = $fields = [];
@@ -106,8 +90,8 @@ function csv2array($handle, $pre = "") {
         if (!feof($handle)) {
             /*echo "Error: unexpected fgets() fail\n";*/
         }
-    } 
-    return $array;  
+    }
+    return $array;
 }
 
 /**
@@ -120,11 +104,11 @@ function csv2array($handle, $pre = "") {
 function best_practices($page) {
     //read categories
     $lang = lang($page);
-    $handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'meta' . DIRECTORY_SEPARATOR . 'categories.csv', "r"); 
+    $handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'meta' . DIRECTORY_SEPARATOR . 'categories.csv', "r");
     $categories = csv2array($handle);
 
     //read and sort list of examples
-    $handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . $page . DIRECTORY_SEPARATOR . 'examples.csv', "r"); 
+    $handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . $page . DIRECTORY_SEPARATOR . 'examples.csv', "r");
     $examples = csv2array($handle);
     foreach ($examples as $key => $row)
         $s[$key]  =  (float) $row['weight'];
@@ -151,7 +135,7 @@ function best_practices($page) {
             $examples[$key]['teaser'] = $parsed['teaser'];
             $examples[$key]['rest'] = $parsed['rest'];
             $examples[$key]['body'] = $parsed['body'];
-            
+
             $examples[$key]['categories'] = parse_categories($examples[$key]['categories'],$categories);
         } else {
             unset($examples[$key]);
@@ -166,7 +150,7 @@ function best_practices($page) {
             $get_category = $_GET['c'];
     } else
         $get_category = [$_GET['category']];
-    
+
     if ($get_category) {
         foreach ($examples as $key=>$example) {
             $in = false;
@@ -180,7 +164,7 @@ function best_practices($page) {
         foreach ($get_category as $gc) {
             $filter[] = $categories[$gc];
         }
-        
+
     }
     $out = [
         'categories' => $categories,
@@ -216,13 +200,13 @@ function parse_text($html) {
 }
 
 /**
-FUNCTIONS FOR EXPLORE and MAP
+* FUNCTIONS FOR EXPLORE and MAP
 */
 
-function compare_countries($a, $b) { 
+function compare_countries($a, $b) {
     if($a->country == $b->country) {
         return 0;
-    } 
+    }
     return ($a->country < $b->country) ? -1 : 1;
 }
 
@@ -264,7 +248,7 @@ function filter_questions($questions) {
                 }
             }
         }
-    } 
+    }
     return $out;
 }
 
@@ -287,12 +271,12 @@ function filter_parliaments($parliaments) {
                     $out[$parliament->id] = $parliament;
             }
         }
-    } 
+    }
     return $out;
 }
 
 //filter questions and sort them
-//produces array 
+//produces array
 function prepare_questions($questions) {
     $out = [];
     $sort = [];
@@ -306,7 +290,7 @@ function prepare_questions($questions) {
             $sort[$code] = $question->categories->weight;
             $questions->$key->weight = $questions->$key->categories->weight;
         }
-        
+
 
     }
     array_multisort($sort, SORT_ASC, $out);
@@ -320,14 +304,14 @@ function prepare_questions($questions) {
 function compare_weights($a, $b) {
     if($a->weight == $b->weight) {
         return 0;
-    } 
+    }
     return ($a->weight < $b->weight) ? -1 : 1;
 }
 
-function compare_category_weights($a, $b) { 
+function compare_category_weights($a, $b) {
     if($a->category_weight == $b->category_weight) {
         return 0;
-    } 
+    }
     return ($a->category_weight < $b->category_weight) ? -1 : 1;
 }
 
@@ -344,7 +328,7 @@ function selected_countries($parliaments) {
 // prepare categories for dialog
 function prepare_categories($codes,$categories) {
     $out = [];
-    foreach ($codes as $code) 
+    foreach ($codes as $code)
         $out[] = $categories->$code;
     return $out;
 }
@@ -364,5 +348,19 @@ function parliaments4dialog($parliaments) {
     return $parliaments_ar;
 }
 
-?>
+// finds and replace links
+// The Regular Expression filter
+function find_prepare_links ($text) {
+    $reg_exUrl = "/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/";
 
+    // Check if there is a url in the text
+    if(preg_match($reg_exUrl, $text, $url)) {
+           // make the urls hyper links
+           $text =  preg_replace($reg_exUrl, "<a href=".$url[0].">".
+           $url[0]."</a> ", $text);
+    }
+
+    return $text;
+}
+
+?>
