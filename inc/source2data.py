@@ -9,7 +9,7 @@ import requests
 c2p = 992   #ids of parliaments
 first = 10  #row with first parliament
 
-url = "https://docs.google.com/spreadsheet/ccc?key=1iABzv1hjXP0Ky9Jm_tggyfLzU_B0s0RiCy_nOkGBMAg&output=csv" #url of the CSV
+url = "https://docs.google.com/spreadsheets/d/13ZfbbrUsl-ZwLdUWD9topnkrwCWSNOfPC2YIb0eWNc4/pub?output=csv" #url of the CSV
 
 try:
     tmp = os.path.realpath(__file__).split("/")
