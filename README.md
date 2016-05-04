@@ -1,7 +1,7 @@
 # Legislative Openness Data Explorer
 
 ## Requirements
-- PHP >=5.3
+- PHP >=5.4
 - Smarty 3
 - Python 3 (optional, for updating only)
 - `system` allowed for PHP (optional, for updating only)
