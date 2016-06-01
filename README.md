@@ -5,6 +5,7 @@
 - Smarty 3
 - Python 3 (optional, for updating only)
 - `system` allowed for PHP (optional, for updating only)
+- `mbstring` installed for PHP
 
 ## Instructions
 
@@ -13,7 +14,9 @@
 - set `smarty/templates_c` writable and readable by www server
 - set `www/cache` writable and readable by www server
 - set all `.json` files in `inc/` files writable and readable by www server
-- set correct source of data (Google Sheet address) also in the 3 python (`.py`) files in `inc/`
+
+#### Fonts
+The application uses http://fontawesome.io/, which needs to be downloaded into `www/fonts/` directory.
 
 ### Updating
 Go to `http(s)://<example.com>/update.php`
