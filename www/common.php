@@ -8,7 +8,7 @@
 */
 
 
-session_start();
+//session_start();
 
 //set up Smarty
 require(SMARTY_PATH);
@@ -19,6 +19,7 @@ $smarty->setCompileDir(APP_PATH . 'smarty/templates_c');
 //get language
 $lang = lang($page);
 $smarty->assign('lang',$lang);
+$smarty->assign('LANGUAGES',$LANGUAGES);
 
 //include texts
     //page specific

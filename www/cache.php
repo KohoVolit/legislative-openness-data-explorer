@@ -13,10 +13,20 @@
   // how long to keep the cache files (hours)
   //define('CACHE_TIME', 24);
 
+  session_start();
+  function cache_lang() {
+      if (isset($_SESSION['lang']))
+          return $_SESSION['lang'];
+      if (isset($_GET['lang']))
+          return $_GET['lang'];
+      else //default language
+          return 'en';
+  }
+
   // return location and name for cache file
   function cache_file()
   {
-    return CACHE_PATH . md5($_SERVER['REQUEST_URI']);
+    return CACHE_PATH . md5($_SERVER['REQUEST_URI'] . cache_lang());
   }
 
   // display cached file if present and not expired

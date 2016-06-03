@@ -18,6 +18,15 @@ $categories = json_decode(file_get_contents(APP_PATH . "inc/categories.json"));
 $data = json_decode(file_get_contents(APP_PATH . "inc/data.json"));
 $parliaments = json_decode(file_get_contents(APP_PATH . "inc/parliaments.json"));
 //echo (microtime(true) - $start . "<br>");die();
+//read data translations
+$td = [];   //translated data
+if ($lang != 'en') {
+    $handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'texts.csv', "r");
+    $tdraw = csv2array($handle);
+    foreach ($tdraw as $key => $item) {
+        $td[$item['code']] = $item['text'];
+    }
+}
 
 // prepare parliaments for dialog
 $parliaments_ar = parliaments4dialog($parliaments);
@@ -99,6 +108,8 @@ $smarty->assign('bp_categories',$best_practices['categories']);
 $smarty->assign('bp_examples',$best_practices['examples']);
 #$smarty->assign('bp_filter',$best_practices['filter']);
 $smarty->assign('relative_path',$relative_path);
+
+$smarty->assign('td',$td);
 
 
 $smarty->display($page . '.tpl');

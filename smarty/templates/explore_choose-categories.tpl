@@ -1,3 +1,4 @@
+
 <div class="modal fade" id="choose-categories-modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -5,7 +6,7 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="{$t['close']['text']}"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title">{$t['choose_categories']['text']}</h4>
       </div>
-      
+
       <div class="modal-body">
             <!-- categories -->
             {foreach $categories as $category}
@@ -17,7 +18,7 @@
                             {if in_array($category->code,$get['c'])}
                                 checked
                             {/if}
-                            > {$category->name} <i class="fa fa-{$category->icon}"></i></h3></div>
+                            > {call name=td td=$td text=$category->name} <i class="fa fa-{$category->icon}"></i></h3></div>
                 {if ($category@iteration) is div by 3}
                     </div>
                 {/if}
@@ -38,23 +39,23 @@
             <div style="display:none" id="categories-show-details-body">
                 <h3>{$t['select_individual_questions']['text']}</h3>
                 {foreach $categories as $category}
-                    <h4>{$category->name}</h4>
+                    <h4>{call name=td td=$td text=$category->name}</h4>
                     <table class="table table-hover">
                       <tbody>
                         {if (isset($questions[$category->code]))}
                         {foreach $questions[$category->code] as $question}
                           {if ($question@iteration - 1) is div by 2}
                             <tr>
-                          {/if} 
+                          {/if}
                             <td class="col-sm-6">
                             <input type="checkbox" name="q[]" value="{$question->id}"
                                 {if in_array($question->id,$get['q'])}
                                     checked
-                                {/if}> 
+                                {/if}>
                                 {foreach $question->categories->icons as $icon}
                                     <i class="fa fa-{$icon}"></i>
                                 {/foreach}
-                                     {$question->question}
+                                     {call name=td td=$td text=$question->question}
                         {/foreach}
                         {/if}
                       </tbody>
@@ -66,10 +67,10 @@
                         <input type="submit" value="{$t['explore']['text']}" class="btn btn-success btm-lg btn-block">
                     </div>
                 </div>
-                
+
             </div>
             <!-- /questions -->
-                
+
       </div>
 
     </div>
