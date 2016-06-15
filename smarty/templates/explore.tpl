@@ -3,9 +3,7 @@
 <script src="{$app_url}libs/jquery.stickytableheaders.min.js"></script>
 {/block}
 {block name=body}
-    {function name=td}
-        {if isset($td[$text])}{$td[$text]}{else}{$text}{/if}
-    {/function}
+    {function name=td}{if isset($td[$text])}{$td[$text]}{else}{$text}{/if}{/function}
     <script>
         //shows and hides
         $(function() {

@@ -25,7 +25,7 @@
         <tr class="bg-primary">
                 <th>
             {foreach $parliaments_selected as $p}
-                <th style="vertical-align:top">{call name=td td=$td text=$p->country}: <small>{call name=td td=$td text=$p->name}</small>
+              <th style="vertical-align:top">{call name=td td=$td text=$p->country}: <small>{call name=td td=$td text=$p->name}</small>
             {/foreach}
     <tbody>
     {foreach $questions_selected as $q}
