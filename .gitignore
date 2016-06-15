@@ -5,3 +5,5 @@ inc/Parsedown.php
 fonts/
 *~lock*
 cache/
+authentication.py
+__pycache__/*
