@@ -2,10 +2,10 @@
 
 import csv
 import io
+import git
 import os
 import requests
-from github import Github
-import authentication
+import settings
 
 languages = ['es']
 
@@ -30,9 +30,14 @@ def is_number(s):
     except ValueError:
         return False
 
-g = Github(authentication.name, authentication.password)
-repo_name = "KohoVolit/legislative-openness-data-explorer-texts/"
-repo_local = ""
+repo = git.Repo(settings.git_dir)
+o = repo.remotes.origin
+o.pull()
+git_ssh_identity_file = settings.ssh_file
+git_ssh_cmd = 'ssh -i %s' % git_ssh_identity_file
+with repo.git.custom_environment(GIT_SSH_COMMAND=git_ssh_cmd):
+    o.push()
+
 
 for lang in languages:
     texts = {}

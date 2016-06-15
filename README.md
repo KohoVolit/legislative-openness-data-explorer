@@ -4,7 +4,8 @@
 - PHP >=5.4
 - Smarty 3
 - Python 3 (optional, for updating only)
-- Python 3 packages: csv, io, json, os, requests, PyGithub  (optional, for updating only)
+- Python 3 packages: csv, io, json, os, requests, gitpython  (optional, for updating only)
+- git version >=2.3 (optional, for updating only)
 - `system` allowed for PHP (optional, for updating only)
 - `mbstring` installed for PHP
 
