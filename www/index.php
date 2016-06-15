@@ -39,7 +39,7 @@ $smarty->display($page . '.tpl');
 
 function sort_categories($categories) {
     $out = [];
-    foreach ($categories as $c) 
+    foreach ($categories as $c)
         $out[] = $c;
     usort($out, 'compare_weights');
     return $out;
