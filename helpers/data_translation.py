@@ -93,11 +93,13 @@ for lang in languages:
         for k in ordered:
             csvw.writerow([k,texts[k]])
 
-    repo.git.add(lang + tfile_name)
+    a = repo.git.add(settings.git_dir + lang + tfile_name)
+    print(a)
     try:
         with repo.git.custom_environment(GIT_COMMITTER_NAME=settings.bot_name, GIT_COMMITTER_EMAIL=settings.bot_email):
             repo.git.commit(message="update data %s" % lang, author="%s <%s>" % (settings.bot_name, settings.bot_email))
         with repo.git.custom_environment(GIT_SSH_COMMAND=git_ssh_cmd):
             o.push()
-    except:
+    except Exception as e:
+        print (e)
         nothing = 0
