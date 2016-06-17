@@ -10,7 +10,7 @@ $(function() {
             $(this).outerHeight(h);
         })
     }
-})    
+})
 </script>
 {/block}
 {block name=body}
@@ -30,7 +30,7 @@ $(function() {
             <div class="list-group" id="next-map-container">
                 {foreach $categories as $category}
                     <a href="explore?c={$category->code}" class="list-group-item">
-                        <h4><div class="row"><div class="col-xs-2"><i class="fa fa-{$category->icon}" style="font-size:1.1em"></i></div><div class="col-xs-10"> {$category->name}</div></h4>
+                        <h4><div class="row"><div class="col-xs-2"><i class="fa fa-{$category->icon}" style="font-size:1.1em"></i></div><div class="col-xs-10"> {$categories_texts[$category->code]['name']}</div></h4>
                     </a>
                 {/foreach}
             </div>
@@ -46,7 +46,7 @@ $(function() {
     </div>
     <!-- /map and categories -->
     <hr>
-    
+
     <!-- big links -->
     <div class="row">
         <div id="equal-heights" style="overflow:hidden">

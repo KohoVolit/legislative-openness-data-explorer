@@ -26,9 +26,16 @@ $mdurl = TEXT_URL . lang($page) . "/front-page/jumbo.md";
 $contents = file_get_contents($mdurl);
 $Parsedown = new Parsedown();
 
+//include texts
+    //categories
+$handle = fopen(TEXT_PATH . $lang . DIRECTORY_SEPARATOR . 'meta' . DIRECTORY_SEPARATOR . 'categories.csv', "r");
+$categories_texts = csv2array($handle);
+// print_r($categories_texts);die();
+
 $smarty->assign('countries',json_encode($selected_countries));
 $smarty->assign('categories',$categories_sorted);
 $smarty->assign('jumbo_text',ltrim($Parsedown->text($contents),'<p>'));
+$smarty->assign('categories_texts',$categories_texts);
 
 $smarty->assign('relative_path',$relative_path);
 
