@@ -6,4 +6,5 @@ fonts/
 *~lock*
 cache/
 authentication.py
+settings.py
 __pycache__/
