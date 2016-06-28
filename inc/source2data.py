@@ -41,8 +41,8 @@ def get_value(qid,dicti):
             return 0
 
     if qid == 7:
-        # if 'No' in dicti['0']:
-        #     return 0
+        if dicti['1'][0] == 'N/A':
+            return 0
         if dicti['1'][0] != '' and dicti['1'][1] != '':
             return 1
         if dicti['1'][0] != '' or dicti['1'][1] != '':
