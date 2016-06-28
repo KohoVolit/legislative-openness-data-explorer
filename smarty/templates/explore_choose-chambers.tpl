@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <input type="submit" value="{$t['explore']['text']}" class="btn btn-success btn-block btn-lg">
+                        <input type="submit" value="{$t['explore']['text']}" class="btn btn-primary btn-block btn-lg">
                     </div>
                 </div>
 

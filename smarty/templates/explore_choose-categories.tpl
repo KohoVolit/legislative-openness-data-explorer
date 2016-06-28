@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <input type="submit" value="{$t['explore']['text']}" class="btn btn-success btn-lg btn-block">
+                    <input type="submit" value="{$t['explore']['text']}" class="btn btn-primary btn-lg btn-block">
                 </div>
             </div>
             <!-- /categories -->
@@ -64,7 +64,7 @@
                 <div class="row">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <input type="submit" value="{$t['explore']['text']}" class="btn btn-success btm-lg btn-block">
+                        <input type="submit" value="{$t['explore']['text']}" class="btn btn-primary btm-lg btn-block">
                     </div>
                 </div>
 
