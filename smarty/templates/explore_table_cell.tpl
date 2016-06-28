@@ -3,7 +3,7 @@
 <div class="modal fade" id="info-modal-{$p->id}-{$q->id}" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header" style="text-align:left;">
 
         <h5 class="modal-title" id="info-modal-title"><strong>{call name=td td=$td text=$p->country}</strong>: {call name=td td=$td text=$p->name}</h5>
         <h4 class="modal-title" id="info-moda-title">{call name=td td=$td text=$q->question}</h4>

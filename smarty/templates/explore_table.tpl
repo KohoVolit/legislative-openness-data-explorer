@@ -15,7 +15,7 @@
         <tr>
             <td><strong>{call name=td td=$td text=$p->country}</strong>: {call name=td td=$td text=$p->name}
         {foreach $questions_selected as $q}
-            <td>
+            <td align="center">
                 {include "explore_table_cell.tpl"}
         {/foreach}
     {/foreach}
