@@ -52,9 +52,9 @@
                                 {if in_array($question->id,$get['q'])}
                                     checked
                                 {/if}>
-                                {foreach $question->categories->icons as $icon}
+                                {* {foreach $question->categories->icons as $icon}
                                     <i class="fa fa-{$icon}"></i>
-                                {/foreach}
+                                {/foreach} *}
                                      {call name=td td=$td text=$question->question}
                         {/foreach}
                         {/if}
