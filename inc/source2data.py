@@ -50,6 +50,8 @@ def get_value(qid,dicti):
         return 3
 
     if qid == 8:
+        if dicti['1'][0] == 'N/A':
+            return 0
         if dicti['1'][0] != '' or dicti['1'][1] != '':
             return 1
         if dicti['1'][2] != '':
