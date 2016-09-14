@@ -14,7 +14,7 @@
 ### General
 - copy `www/settings-example.json` into `www/settings.json` and set it correctly, this file needs to be readable by www server
 - set `smarty/templates_c` writable and readable by www server
-- set `www/cache` writable and readable by www server
+- create `www/cache` and set it writable and readable by www server
 - set all `.json` files in `inc/` files writable and readable by www server
 
 #### Fonts
