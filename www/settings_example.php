@@ -20,8 +20,7 @@ const TEXT_PATH = "/home/michal/project/legislative-openness-data-explorer-texts
 const APP_URL = "http://localhost/michal/project/legislative-openness-data-explorer/www/";
 
 //url of the texts
-//const TEXT_URL = "https://raw.githubusercontent.com/KohoVolit/legislative-openness-data-explorer-texts/master/";
-const TEXT_URL = "http://localhost/michal/project/legislative-openness-data-explorer-texts/";
+const TEXT_URL = "https://raw.githubusercontent.com/KohoVolit/legislative-openness-data-explorer-texts/master/";
 
 //cache time in hours
 const CACHE_TIME = 1000;

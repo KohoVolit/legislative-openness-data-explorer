@@ -8,7 +8,7 @@ import requests
 import settings
 
 # languages settings
-languages = ['en','es']
+languages = ['en','fr']
 
 # repo settings
 repo = git.Repo(settings.git_dir)
